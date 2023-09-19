@@ -1,0 +1,78 @@
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto";
+  /* 引入字体 */
+  src: url("./Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto-Bold";
+  /* 引入字体 */
+  src: url("./Roboto-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto-BlackItalic";
+  /* 引入字体 */
+  src: url("./Roboto-BlackItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto-Medium";
+  /* 引入字体 */
+  src: url("./Roboto-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "MongolianBaiti";
+  /* 引入字体 */
+  src: url("./monbaiti.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Montserrat-Bold";
+  /* 引入字体 */
+  src: url("./Montserrat-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Montserrat-SemiBold";
+
+  /* 引入字体 */
+  src: url("./MontserratSemiBold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Montserrat-Regular";
+  /* 引入字体 */
+  src: url("./Montserrat-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Poppins-BoldItalic";
+
+  /* 引入字体 */
+  src: url("./Poppins-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,51 @@
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto";
+  /* 引入字体 */
+  src: url("./Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "RobotoBold";
+  /* 引入字体 */
+  src: url("./Roboto-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "RobotoMedium";
+  /* 引入字体 */
+  src: url("./Roboto-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "MontserratBold";
+  /* 引入字体 */
+  src: url("./Montserrat-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Montserrat-Regular";
+  /* 引入字体 */
+  src: url("./Montserrat-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "MontserratSemiBold";
+  /* 引入字体 */
+  src: url("./Montserrat\ Semi\ Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}

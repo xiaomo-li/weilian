@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/fix.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/font/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="sp-header-top">
+        <img class="text" src="./image/logo.png" alt="" />
+
+        <a href="#shopping">
+          <div class="btn uppercase">
+            buynow
+            <img src="./image/arrow-r-y.png" alt="" class="icon" /></div
+        ></a>
+        <div class="sp-cart relative">
+          <img class="icon" src="./image/cart.png" alt="" />
+          <div class="num">1</div>
+        </div>
+      </div>
+      <div class="part time-part">
+        <div class="flex-bet">
+          <div class="text uppercase">Limited-time offer</div>
+          <div class="flex-x">
+            <div class="min-text">MIN</div>
+            <div class="clock-wrap flex-bet">
+              <div class="square" id="hh"></div>
+              <div class="dot"></div>
+              <div class="square" id="mm"></div>
+              <div class="dot"></div>
+              <div class="square" id="ss"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="sp-part1 relative part-top">
+          <video
+            autoplay=""
+            muted=""
+            loop=""
+            playsinline=""
+            src="./image/video.mp4"
+            type="video/mp4"
+            class="sp-img"
+          ></video>
+          <div class="part1-bg"></div>
+          <div class="relative">
+            <img
+              class=""
+              style="margin-top: -240px"
+              src="./image/bg1.png"
+              alt=""
+            />
+            <img class="sp-img1" src="./image/img1-1.png" alt="" />
+
+            <div class="title uppercase">
+              White Shoes<br />
+              <span>Cleaning</span> Cream
+            </div>
+            <div class="price-group">
+              <div class="price1"><span>$</span>14.99</div>
+              <div class="price2">$21.99</div>
+            </div>
+            <a href="#shopping">
+              <div class="black-btn btn-style btn uppercase">
+                buynow
+                <img src="./image/arrow-r.png" alt="" class="icon" /></div
+            ></a>
+            <div class="area">
+              <div>Silent ignition</div>
+              <div>Silent ignition</div>
+              <div>Silent ignition</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sp-part2 relative">
+          <img class="s-img" src="./image/img2.png" alt="" />
+          <img
+            src="./image/Krem do czyszczenia białych butów – travaiye.gif"
+            alt=""
+            class="gif"
+          />
+
+          <div class="title p-center">
+            Effective<br />
+            Dirt Removal
+          </div>
+
+          <div class="text p-center">
+            Active decontamination dissolves, effectively remove dirt with<br />
+            anhydrous cleaning paste, and adds penetrants to penetrate deeply<br />
+            into the upper. Keep your shoes as clean as new!
+          </div>
+        </div>
+        <div class="sp-part3 relative">
+          <img class="sp-img" src="./image/img3.png" alt="" />
+          <div class="title p-center">
+            still cleaning your shoes<br />
+            the traditional way?
+          </div>
+          <div class="text p-center">
+            Laundry powder? Detergent? soap? Brightener?
+          </div>
+          <div class="area">
+            <div>
+              stubborn<br />
+              stains
+            </div>
+            <div>
+              Time-<br />
+              consuming
+            </div>
+            <div>accelerated <br />aging</div>
+            <div>Upper <br />Chlorination</div>
+          </div>
+        </div>
+        <a href="#shopping">
+          <div class="black-btn btn-style btn uppercase">
+            buynow
+            <img src="./image/arrow-r.png" alt="" class="icon" /></div
+        ></a>
+        <div class="sp-part5 relative">
+          <img class="sp-img" src="./image/img4.png" alt="" />
+          <div class="title">
+            Don't Need To<br />
+            Water Wash
+          </div>
+          <div class="text">
+            Decontamination and brightening<br />
+            a double protective factor,
+          </div>
+        </div>
+        <div class="sp-part4 relative">
+          <div class="title">
+            Powerful Cleaning<br />
+            Ability Easy to Use
+          </div>
+          <div class="sub-title">
+            Our specially formulated cleaning paste brings you a powerful<br />
+            cleaning ability that will leave your shoes looking fresh and new.
+          </div>
+          <div class="swiper" id="swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="relative">
+                  <img class="sp-img" src="./image/banner1/b1.png" alt="" />
+                  <div class="text text1">BEFORE</div>
+                  <div class="text text2">
+                    <img class="icon" src="./image/right.png" alt="" /> AFTER
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="relative">
+                  <img class="sp-img" src="./image/banner1/b2.png" alt="" />
+                  <div class="text text1">BEFORE</div>
+                  <div class="text text2">
+                    <img class="icon" src="./image/right.png" alt="" /> AFTER
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="relative">
+                  <img class="sp-img" src="./image/banner1/b3.png" alt="" />
+                  <div class="text text1">BEFORE</div>
+                  <div class="text text2">
+                    <img class="icon" src="./image/right.png" alt="" /> AFTER
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="relative">
+                  <img class="sp-img" src="./image/banner1/b4.png" alt="" />
+                  <div class="text text1">BEFORE</div>
+                  <div class="text text2">
+                    <img class="icon" src="./image/right.png" alt="" /> AFTER
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="relative">
+                  <img class="sp-img" src="./image/banner1/b5.png" alt="" />
+                  <div class="text text1">BEFORE</div>
+                  <div class="text text2">
+                    <img class="icon" src="./image/right.png" alt="" /> AFTER
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="sp-part6 relative">
+          <img class="sp-img" src="./image/img5.png" alt="" />
+          <div class="title">
+            Gentle, Safe And<br />
+            Durable
+          </div>
+
+          <div class="area">
+            <div>Surfactants</div>
+            <div>
+              Soapnut<br />
+              Extract
+            </div>
+            <div>
+              Leather<br />
+              Protein
+            </div>
+            <div>
+              Coconut <br />
+              Oil
+            </div>
+          </div>
+          <div class="text">
+            The traditional way of brushing shoes is easy to damages the surface
+            of<br />
+            shoes, resulting in peeling, degumming, pilling, and other problems
+            of the<br />
+            upper. Our products are mildly formulated and
+          </div>
+        </div>
+        <div class="sp-part7 relative">
+          <img class="sp-img" src="./image/img6.png" alt="" />
+
+          <div class="area">
+            <div class="text1">
+              Gentle<br />
+              and clean
+            </div>
+            <div class="text2">
+              Decontamination<br />
+              and brightening
+            </div>
+            <div class="text3">
+              effective<br />
+              dirt removal
+            </div>
+          </div>
+        </div>
+
+        <div class="sp-part8 relative">
+          <div class="title-wrap">
+            <div class="title">
+              <span>Multi-functional</span> cleaning cream
+            </div>
+            <div class="title2">widely applicable</div>
+          </div>
+          <div class="item-groups">
+            <div class="item-group">
+              <img src="./image/img7-1.png" alt="" />
+              <div class="item-title">Shoe cleaning</div>
+              <div class="item-text">
+                White shoes, leather shoes, basketball shoes, sports shoes, and
+                more.
+              </div>
+            </div>
+            <div class="item-group">
+              <img src="./image/img7-2.png" alt="" />
+              <div class="item-title">Leather material cleaning</div>
+              <div class="item-text">
+                Leather bags, leather sofas, car interior leather seats, and
+                more.
+              </div>
+            </div>
+            <div class="item-group">
+              <img src="./image/img7-3.png" alt="" />
+              <div class="item-title">Household appliance cleaning</div>
+              <div class="item-text">
+                TV, air conditioner, refrigerator casing, range hood casing, and
+                more.
+              </div>
+            </div>
+            <div class="item-group">
+              <img src="./image/img7-4.png" alt="" />
+              <div class="item-title">Office supplies cleaning</div>
+              <div class="item-text">
+                Computers, printers, office desks, chairs, and more.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sp-part9">
+          <div class="relative">
+            <img class="sp-img" src="./image/img7.png" alt="" />
+            <div class="area">
+              <div class="bet">
+                <div class="name">Product Weight</div>
+                <div
+                  class="text"
+                  style="font-size: 40px; font-family: 'Roboto-Bold'"
+                >
+                  100g
+                </div>
+              </div>
+              <div class="bet">
+                <div class="name">Package Contents</div>
+                <div class="text">
+                  White Shoe Cleaning Cream × 1/2/3PCS Give away sponge ×
+                  1/2/3PCS
+                </div>
+              </div>
+              <div class="bet">
+                <div class="name">Ingredients</div>
+                <div class="text">
+                  Vegetable saponin, Coconut oil, Antistatic agent, Plant
+                  extract.
+                </div>
+              </div>
+              <div class="bet">
+                <div class="name">Product functions</div>
+                <div class="text">
+                  Decontamination maintenance, Deep nourishing, Preventing
+                  oxidation.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sp-part10">
+          <div class="title">Using methods</div>
+          <div class="area">
+            <div class="group">
+              <div class="relative">
+                <img src="./image/img8-1.png" alt="" />
+                <div class="index">1.</div>
+              </div>
+              <div class="img-bottom">Wipe the shoes vampdust with a towel</div>
+            </div>
+            <div class="group">
+              <div class="relative">
+                <img src="./image/img8-2.png" alt="" />
+                <div class="index">2.</div>
+              </div>
+              <div class="img-bottom">
+                Dip an appropriate amount ofcleaning cream with a sponge
+              </div>
+            </div>
+            <div class="group">
+              <div class="relative">
+                <img src="./image/img8-3.png" alt="" />
+                <div class="index">3.</div>
+              </div>
+              <div class="img-bottom">Wipe the stains repeatedly</div>
+            </div>
+            <div class="group">
+              <div class="relative">
+                <img src="./image/img8-4.png" alt="" />
+                <div class="index">4.</div>
+              </div>
+              <div class="img-bottom">Rinse and clean, reusable</div>
+            </div>
+          </div>
+        </div>
+        <div class="nav swiper part-top" id="nav1">
+          <div class="swiper-wrapper">
+            <div class="nav-group swiper-slide">
+              <div class="icon bg"></div>
+              <div class="text uppercase">BUY 2 GET 5% OFF</div>
+            </div>
+
+            <div class="nav-group swiper-slide">
+              <div class="icon bg"></div>
+              <div class="text uppercase">BUY 3 GET 10% OFF</div>
+            </div>
+            <div class="nav-group swiper-slide">
+              <div class="icon bg"></div>
+              <div class="text uppercase">BUY 2 GET 5% OFF</div>
+            </div>
+            <div class="nav-group swiper-slide">
+              <div class="icon bg"></div>
+              <div class="text uppercase">BUY 3 GET 10% OFF</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-part" id="shopping">
+          <div class="flex-x p1">
+            <img
+              class="img p-img"
+              style="height: 285px"
+              src="./image/p/p1.png"
+              alt=""
+            />
+            <div class="p-info" style="margin-left: -80px">
+              <div class="p-title" style="margin-bottom: 60px">1PC</div>
+              <div class="price-group" style="margin-bottom: 50px">
+                <div class="prices">$14.99</div>
+                <div class="price2">$21.99</div>
+              </div>
+
+              <div class="btn2">BUY NOW</div>
+            </div>
+          </div>
+          <div class="flex-x p2">
+            <div class="relative p-img-wrap">
+              <img
+                class="img p-img"
+                src="./image/p/p2.png"
+                style="height: 315px"
+                alt=""
+              />
+
+              <div class="relative sale-brand">Most <br />Popular</div>
+            </div>
+            <div class="p-info">
+              <div class="p-title" style="margin-bottom: 50px">2PCS</div>
+              <div class="price-group" style="margin-bottom: 20px">
+                <div class="prices">$25.98</div>
+                <div class="price2">$49.99</div>
+              </div>
+              <div class="text">Extra <span class="red">$4</span> OFF</div>
+              <div class="btn2">BUY NOW</div>
+            </div>
+          </div>
+          <div class="flex-x p3">
+            <div class="relative p-img-wrap">
+              <img
+                class="img p-img"
+                src="./image/p/p3.png"
+                style="height: 453px"
+                alt=""
+              />
+
+              <div class="relative sale-brand">Best <br />Value</div>
+            </div>
+
+            <div class="p-info">
+              <div class="p-title" style="margin-bottom: 40px">
+                3PCS -SAVE $7
+              </div>
+              <div class="price-group" style="margin-bottom: 20px">
+                <div class="prices" style="color: #000">$37.97</div>
+                <div class="price2">$65.97</div>
+              </div>
+              <div class="text"><span class="red">$12.65</span> / Pc</div>
+              <div class="btn2">BUY NOW</div>
+            </div>
+          </div>
+        </div>
+        <img class="sp-img" src="./image/footer-img.png" alt="" />
+        <div class="remark">
+          <div class="flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Worldwide shipping</div>
+          </div>
+          <div class="flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Free returns</div>
+          </div>
+
+          <div class="flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">24/7 customer support</div>
+          </div>
+          <div class="flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Secure payments</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./js/dayjs.min.js"></script>
+
+    <script>
+      $(function () {
+        setInterval(() => {
+          let time = new Date();
+          $("#ss").html(dayjs(time).format("ss"));
+          $("#mm").html(dayjs(time).format("mm"));
+          $("#hh").html(dayjs(time).format("hh"));
+        }, 1000);
+
+        new Swiper("#swiper2", {
+          // loop: true,
+          autoplay: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            renderBullet: function (index, className) {
+              return (
+                '<span class="' + className + '">' + (index + 1) + "</span>"
+              );
+            },
+          },
+          autoplay: {
+            disableOnInteraction: false,
+          },
+        });
+        setTimeout(() => {
+          new Swiper("#nav1", {
+            loop: true,
+            slidesPerView: "auto",
+            autoplay: true,
+            speed: 8000,
+            autoplay: {
+              delay: 1,
+              disableOnInteraction: false,
+            },
+          });
+        }, 500);
+        $(".option").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+          let img = $(this).parent().parent().siblings().find(".p-img");
+          if ($(this).index() == 0) {
+            img[0].src = img[0].src.replace("-y.png", ".png");
+          } else {
+            img[0].src = img[0].src.replace(".png", "-y.png");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
