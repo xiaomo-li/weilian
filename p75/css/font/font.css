@@ -1,0 +1,88 @@
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto";
+  /* 引入字体 */
+  src: url("./Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto-Bold";
+  /* 引入字体 */
+  src: url("./Roboto-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto-Medium";
+  /* 引入字体 */
+  src: url("./Roboto-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Montserrat-Bold";
+  /* 引入字体 */
+  src: url("./Montserrat-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Montserrat-Medium";
+  /* 引入字体 */
+  src: url("./Montserrat-Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Montserrat-Regular";
+  /* 引入字体 */
+  src: url("./Montserrat-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 重命名字体名 */
+  font-family: "OpenSans-Semibold";
+  /* 引入字体 */
+  src: url("./OpenSans-Semibold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Roboto-Black";
+
+  /* 引入字体 */
+  src: url("./Roboto-Black.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "Montserrat-SemiBold";
+
+  /* 引入字体 */
+  src: url("./Montserrat-SemiBold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 重命名字体名 */
+  font-family: "AkzidenzGroteskBQ-XBdCnd";
+
+  /* 引入字体 */
+  src: url("./AKZIDENZGROTESK-BOLDCOND.OTF");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/fix.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/jquery.SuperSlide.2.1.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/font/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="sp-header-top">
+        <img id="logo" class="text" src="./image/logo.png" alt="" />
+
+        <a href="#shopping">
+          <div class="btn sp-uppercase">
+            buy now
+            <img src="./image/arrow.png" alt="" class="icon" /></div
+        ></a>
+        <div class="sp-cart sp-relative">
+          <img class="icon" src="./image/cart.png" alt="" />
+          <div class="num" id="cardNum"></div>
+        </div>
+      </div>
+      <div class="time-part">
+        <div class="flex-bet">
+          <div class="text sp-uppercase">Christmas Sales</div>
+          <div class="sp-flex-x sp_top_cut_down">
+            <div class="min-text">MIN</div>
+            <div class="clock-wrap flex-bet sp_left_view">
+              <div class="square sp_hour">00</div>
+              <div class="dot"></div>
+              <div class="square sp_minute">00</div>
+              <div class="dot"></div>
+              <div class="square sp_second">00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="sp-part-top sp-part0">
+          <div class="title">
+            Table Curling Toy
+            <div class="circle"></div>
+          </div>
+          <p>(Ice Hockey Table - Game Family Party)</p>
+        </div>
+        <div class="sp-part1 sp-relative">
+          <video
+            autoplay=""
+            muted=""
+            loop=""
+            playsinline=""
+            src="./image/video.mp4"
+            type="video/mp4"
+            class="sp-img"
+          ></video>
+
+          <div class="area">
+            <p class="p1">MINI TABLETOP GAME</p>
+            <div class="btn-style sp-uppercase">
+              <div class="swiper" id="swiper-btn">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    buy now
+                    <img class="icon" src="./image/arrow-right.png" alt="" />
+                  </div>
+                  <div class="swiper-slide" style="font-size: 60px">
+                    One-Time Offer
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sp-flex-x">
+              <img src="./image/sale.png" alt="" />
+              <p>Don't miss your 40% off!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sp-part2">
+          <div class="sp-title">
+            A truly wonderful family game for kids and adults
+          </div>
+          <div class="sp-text">
+            this is a puzzle and funny game.the great thing is, you'll find its
+            challenging enough that adults and kids can go head to head against
+            each other, with no advantage either way .it can promote
+            relationship between you and your child. Helps kids build hand-eye
+            coordination, learn game strategy, and basic physics.
+          </div>
+          <img class="sp-img" src="./image/img2.png" alt="" />
+          <img class="sp-img" src="./image/img3.png" alt="" />
+          <img
+            class="sp-img"
+            style="margin-top: 30px"
+            src="./image/img4.png"
+            alt=""
+          />
+        </div>
+
+        <div class="sp-part3">
+          <div class="sp-title">Mini tabletop game takes up no space</div>
+          <div class="sp-text" style="margin-bottom: 90px">
+            this is a nice compact game for kids, takes up no space at all and
+            includes a shiny rollout surface 57 inches long and 4/8 red and 4/8
+            blue stones, With the light weight.
+          </div>
+          <img class="img1" src="./image/img5.png" alt="" />
+          <div class="sp-title" style="margin-bottom: 50px; margin-top: 110px">
+            EASY TO INSTALL
+          </div>
+          <div class="sp-text" style="margin-bottom: 52px">
+             This curling board game is easy to carry and set up. Just find a
+            smooth surface and open the box in a few seconds , then you can
+            start your fun time. included: 1 x roll up mat, 2 x magnetic strips,
+            8/16 x stones, 1 x English manual.
+          </div>
+          <img class="img2" src="./image/img6.png" alt="" />
+          <div class="sp-text" style="margin-bottom: 52px; margin-top: 70px">
+            Ideal for playing indoors or outdoors, when you go for a picnic,
+            camp or travel.
+          </div>
+        </div>
+        <div class="sp-nav2">
+          <p>Whole Shop! Buy more, Save more!</p>
+        </div>
+        <div class="sp-part9 sp-relative">
+          <div class="area">
+            <img class="word" src="./image/word.png" alt="" />
+            <p>Buy 2 Get <br /><span>10%</span> 0ff</p>
+          </div>
+          <img class="people" src="./image/people.png" alt="" />
+        </div>
+
+        <div class="product-part" id="shopping">
+          <div class="product-box">
+            <img class="p-img" src="./image/p1.png" alt="" />
+
+            <div class="price-group">
+              <div class="price1">$<span id="price1">24.99</span></div>
+              <span class="price2">$</span
+              ><span class="price2" id="price2">37.99</span>
+            </div>
+            <div class="row">
+              <div class="option-title">Paving Size :</div>
+              <div class="opt-group">
+                <div
+                  class="option active"
+                  style="width: 535px; font-size: 32px"
+                >
+                  15.2 *54.3 inches (30*120cm)
+                </div>
+              </div>
+            </div>
+
+            <div class="row" style="margin-top: 35px">
+              <div class="option-title">mini Hockey Puck Quantity :</div>
+
+              <div class="opt-group" id="color">
+                <div class="option active">8 PCS</div>
+                <div class="option">16 PCS</div>
+              </div>
+            </div>
+
+            <div class="row" style="margin-top: 36px">
+              <div
+                class="option-title"
+                style="font-size: 32px; padding-top: 0px"
+              >
+                Quantity :
+              </div>
+              <div class="addGroup">
+                <div class="reduce">
+                  <img src="./image/reduce.png" alt="" class="img" />
+                </div>
+                <input type="number" min="1" name="" value="1" max="200" />
+                <div class="add">
+                  <img src="./image/add.png" alt="" class="img" />
+                </div>
+              </div>
+            </div>
+            <div class="sp-line"></div>
+
+            <div class="cart-btn btn-style">Add to cart</div>
+
+            <div class="sp-btn-style">
+              Buy Now <img src="./image/arrow-r.png" alt="" class="icon" />
+            </div>
+            <div class="tip">
+              <img src="./image/star.png" alt="" />More users choose to buy two
+              pieces
+            </div>
+          </div>
+        </div>
+        <img class="sp-img" src="./image/shopify_stripe_klarna.png" alt="" />
+        <div class="sp-nav5">
+          <img src="./image/car.png" alt="" />
+          <p>Free Shipping for Orders Over $60</p>
+        </div>
+
+        <div class="remark">
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Worldwide shipping</div>
+          </div>
+          <div class="sp-flex-x">
+            <div
+              class="icon"
+              style="width: 46px; height: 35px; margin-left: -5px"
+            ></div>
+            <div class="icon-text">Free returns</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">24/7 customer support</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon" style="width: 38px; height: 44px"></div>
+            <div class="icon-text">Secure payments</div>
+          </div>
+        </div>
+        <div class="mask">
+          <div class="pop">
+            <img class="sp-img" src="./image/size.png" alt="" />
+            <img class="close-btn" src="./image/close.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript">
+      let a = jQuery("#nav1").slide({
+        mainCell: ".nav11",
+        autoPlay: true,
+        effect: "leftMarquee",
+        interTime: 8,
+      });
+    </script>
+    <script>
+      // 倒计时
+      function getRandomNum(n, m) {
+        let _num = Math.floor((n + 1 - m) * Math.random() + m);
+        return _num;
+      }
+
+      let endTimeG;
+
+      function cutDownTime() {
+        let nowTime = new Date();
+        let endTime = new Date(endTimeG);
+        let leftTime = endTime.getTime() - nowTime.getTime();
+        let leftH = Math.floor((leftTime / (1000 * 60 * 60)) % 24),
+          leftM = Math.floor((leftTime / (1000 * 60)) % 60),
+          leftS = Math.floor((leftTime / 1000) % 60);
+        leftH = leftH >= 10 ? leftH : "0" + leftH;
+        leftM = leftM >= 10 ? leftM : "0" + leftM;
+        leftS = leftS >= 10 ? leftS : "0" + leftS;
+
+        return {
+          hour: leftH,
+          minute: leftM,
+          second: leftS,
+        };
+      }
+
+      function getCutDownTime() {
+        let rHour = getRandomNum(4, 12);
+        let curTime = new Date();
+        endTimeG = curTime.setHours(curTime.getHours() + rHour);
+        setInterval(function () {
+          let cutDownTimeText = cutDownTime();
+          $(".sp_top_cut_down .sp_left_view .sp_hour").html(
+            cutDownTimeText.hour
+          );
+          $(".sp_top_cut_down .sp_left_view .sp_minute").html(
+            cutDownTimeText.minute
+          );
+          $(".sp_top_cut_down .sp_left_view .sp_second").html(
+            cutDownTimeText.second
+          );
+        }, 1000);
+      }
+
+      getCutDownTime();
+    </script>
+
+    <script>
+      new Swiper("#swiper-btn", {
+        direction: "vertical",
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+      });
+
+      $(".reduce").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) - 1;
+        if (num > 0) {
+          input.value = num;
+        }
+      });
+      $(".add").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) + 1;
+        input.value = num;
+      });
+
+      $(function () {
+        $(".option").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+        });
+
+        let typeList = 0;
+        // style选项
+        let typeOptions = $("#color .option");
+        let img = $(".p-img");
+        // 切换选项
+        function checkType(index) {
+          if (index == 0) {
+            img[0].src = "./image/p1.png";
+          } else if (index == 1) {
+            img[0].src = "./image/p2.png";
+          }
+        }
+
+        typeOptions.click(function () {
+          let index = $(this).index();
+          checkType(index);
+        });
+
+        let initNum = 0;
+        $(".cart-btn").click(function () {
+          let input = $(".addGroup input")[0];
+          initNum = Number(input.value) + initNum;
+          $("#cardNum").html(initNum).show();
+        });
+      });
+    </script>
+  </body>
+</html>

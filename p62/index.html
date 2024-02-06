@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/fix.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/jquery.SuperSlide.2.1.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/font/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="sp-header-top">
+        <img id="logo" class="text" src="./image/logo.png" alt="" />
+        <div class="sp-flex-x">
+          <div class="sp-cart sp-relative">
+            <img class="icon" src="./image/cart.png" alt="" />
+            <div class="num" id="cardNum"></div>
+          </div>
+          <a href="#shopping">
+            <div class="btn sp-uppercase">
+              buy now
+              <img src="./image/arrow.png" alt="" class="icon" /></div
+          ></a>
+        </div>
+      </div>
+      <div class="time-part">
+        <div class="flex-bet">
+          <div class="text sp-uppercase">LIMITED TIME OFFER</div>
+          <div class="sp-flex-x sp_top_cut_down">
+            <!-- <div class="min-text">MIN</div> -->
+            <div class="clock-wrap flex-bet sp_left_view">
+              <div class="square sp_hour">00</div>
+              <div class="dot"></div>
+              <div class="square sp_minute">00</div>
+              <div class="dot"></div>
+              <div class="square sp_second">00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="sp-part1 sp-part-top">
+          <div class="sp-relative">
+            <img src="./image/img1.jpg" alt="" class="sp-img" />
+            <div class="area">
+              <div class="title">Knitted</div>
+              <div class="sub-title">Turtleneck Sweater</div>
+              <div class="box">-42% OFF</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sp-part2">
+          <img class="img1" src="./image/img2-1.jpg" alt="" />
+          <div>
+            <img class="img2" src="./image/img2-2.jpg" alt="" />
+            <div class="text">The Perfect Ensemble for Cold Winter Days</div>
+          </div>
+        </div>
+
+        <div class="sp-part3 sp-relative">
+          <img class="sp-img" src="./image/img3-bg.jpg" alt="" />
+          <div class="box">
+            <div class="title">
+              Premium Fabric <br />
+              Comfortable and Soft
+            </div>
+            <img class="sp-img" src="./image/img3.jpg" alt="" />
+          </div>
+
+          <div class="text-group">
+            <p><img src="./image/right.png" alt="" />Aesthetic comfortable</p>
+            <p><img src="./image/right.png" alt="" />soft and smooth</p>
+            <p>
+              <img src="./image/right.png" alt="" />Colorfast shape-retaining
+            </p>
+            <p><img src="./image/right.png" alt="" />lightweight elasticity</p>
+          </div>
+        </div>
+        <img class="sp-img" src="./image/gif1.gif" alt="" />
+        <a href="#shopping">
+          <div class="btn-style btn-style1">buy now</div>
+        </a>
+        <div class="sp-part4">
+          <div class="title">Ribbed Knit Turtleneck</div>
+          <div class="sub-title">
+            The loose fit provides comfortable mobility, and the versatile solid
+            color design allows for both formal and casual styling
+          </div>
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img4.jpg" alt="" />
+            <div class="area">
+              <img class="img1" src="./image/img4-1.png" alt="" />
+              <div class="box">
+                <div>
+                  <div class="icon">
+                    <img src="./image/img4-2.png" alt="" />
+                  </div>
+                  <div>
+                    <div class="p1">Ribbed Turtleneck</div>
+                    <p>Designed to Fit the Neck Closely</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="icon">
+                    <img src="./image/img4-3.png" alt="" />
+                  </div>
+                  <div>
+                    <div class="p1">High-quality Fabric</div>
+                    <p>Machine washable without deformation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sp-part5">
+          <img class="sp-img" src="./image/img4-4.jpg" alt="" />
+          <div class="text-group">
+            <div>
+              <div class="title">Elastic cuffs</div>
+              <p>not easy to unravel durable and long-lasting.</p>
+            </div>
+            <div>
+              <div class="title">Exquisite</div>
+              <p>comfortable and soft resistant to pilling.</p>
+            </div>
+            <div>
+              <div class="title">Elastic hem</div>
+              <p>smooth bottom hem line,finely crafted.</p>
+            </div>
+          </div>
+          <div class="area">
+            <img class="img1" src="./image/img5.jpg" alt="" />
+            <img class="gif" src="./image/gif2.gif" alt="" />
+          </div>
+        </div>
+        <a href="#shopping">
+          <div class="btn-style btn-style1">buy now</div>
+        </a>
+        <div class="sp-part6">
+          <div class="title">- Multiple Colors Available -</div>
+          <div class="swiper" id="swiperB">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="sp-img" src="./image/b/b1.png" alt="" />
+                <div class="text-wrap">
+                  <div>
+                    <div style="background: #f3f3f3" class="circle"></div>
+                    <p>white</p>
+                  </div>
+                  <div>
+                    <div style="background: #121212" class="circle"></div>
+                    <p>Black</p>
+                  </div>
+                  <div>
+                    <div style="background: #a18091" class="circle"></div>
+                    <p>Purple</p>
+                  </div>
+                  <div>
+                    <div style="background: #9cbcbc" class="circle"></div>
+                    <p>Green</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img class="sp-img" src="./image/b/b2.png" alt="" />
+                <div class="text-wrap">
+                  <div>
+                    <div style="background: #d9b8b6" class="circle"></div>
+                    <p>Pink</p>
+                  </div>
+                  <div>
+                    <div style="background: #d1a27d" class="circle"></div>
+                    <p>Camel</p>
+                  </div>
+                  <div>
+                    <div style="background: #c0c1c3" class="circle"></div>
+                    <p>Light Gray</p>
+                  </div>
+                  <div>
+                    <div style="background: #e4daca" class="circle"></div>
+                    <p>Light Brown</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img class="sp-img" src="./image/b/b3.png" alt="" />
+                <div class="text-wrap">
+                  <div>
+                    <div style="background: #c2b09e" class="circle"></div>
+                    <p>Beige</p>
+                  </div>
+                  <div>
+                    <div style="background: #5d4b3f" class="circle"></div>
+                    <p>Dark Brown</p>
+                  </div>
+                  <div>
+                    <div style="background: #968877" class="circle"></div>
+                    <p>Deep Tan</p>
+                  </div>
+                  <div>
+                    <div style="background: #5985ac" class="circle"></div>
+                    <p>Blue</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sp-part7">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/size.jpg" alt="" />
+            <div class="title1">SIZE CHART</div>
+            <div class="t1">Size</div>
+            <div class="row1">
+              <p style="width: 182px">Length</p>
+              <p style="width: 182px">Bust</p>
+              <p style="width: 183px">Sleeve</p>
+              <p style="width: 183px">Sleeve</p>
+              <p style="width: 97px">Height</p>
+              <p style="width: 124px">Weight</p>
+            </div>
+            <div class="row2">
+              <p style="width: 90px">cm</p>
+              <p style="width: 92px">inch</p>
+              <p style="width: 92px">cm</p>
+              <p style="width: 92px">inch</p>
+              <p style="width: 92px">cm</p>
+              <p style="width: 92px">inch</p>
+              <p style="width: 92px">cm</p>
+              <p style="width: 92px">inch</p>
+              <p style="width: 92px">cm</p>
+              <p style="width: 120px">kg</p>
+            </div>
+          </div>
+          <div class="sp-relative box2">
+            <img class="sp-img" src="./image/size2.jpg" alt="" />
+            <div class="title2 sp-uppercase">Suitable for all body shapes</div>
+            <div class="p2">
+              Loose fit style, making the wearer appear slimmer and more
+              slender.
+            </div>
+          </div>
+        </div>
+        <div class="sp-part8">
+          <div class="area">
+            <img class="brand" src="./image/brand.png" alt="" />
+            <div>
+              <div class="title">100% PRAISE RATE</div>
+              <p>
+                The sweater you won't want to take off, it's the perfect
+                companion for chilly winter days. Its exquisite design will
+                quickly become your favorite outerwear.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-part" id="shopping">
+          <div class="sp-relative swiper-box">
+            <div class="swiper" id="swiper-p">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p2.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p3.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p4.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p5.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p6.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p7.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p8.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p9.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p10.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p11.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="p-img" src="./image/p/p12.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper" id="thumbs-p">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./image/p/p1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p2.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p3.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p4.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p5.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p6.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p7.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p8.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p9.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p10.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p11.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/p/p12.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sp-title">Knitted Turtleneck Sweater</div>
+          <div class="price-group">
+            <div class="price1">€<span id="price1">28.99</span></div>
+            <span class="price2">€</span
+            ><span class="price2" id="price2">49.99</span>
+          </div>
+          <div class="option-title">Color :</div>
+
+          <div class="opt-group" id="color">
+            <div class="option active">
+              <div class="circle" style="background: #e4e4e4"></div>
+              White
+            </div>
+            <div class="option">
+              <div class="circle" style="background: #353535"></div>
+              Black
+            </div>
+            <div class="option">
+              <div class="circle" style="background: #82557d"></div>
+              Purple
+            </div>
+            <div class="option">
+              <div class="circle" style="background: #7cdfcb"></div>
+              Green
+            </div>
+            <div class="option">
+              <div class="circle" style="background: #b37e53"></div>
+              Camel
+            </div>
+            <div class="option">
+              <div class="circle" style="background: #efb0b0"></div>
+              Pink
+            </div>
+            <div class="option" style="gap: 14px">
+              <div class="circle" style="background: #b1b1b1"></div>
+              Light Gray
+            </div>
+            <div class="option" style="gap: 9px">
+              <div class="circle" style="background: #eaded2"></div>
+              Light Brown
+            </div>
+            <div class="option">
+              <div class="circle" style="background: #c2b09e"></div>
+              Beige
+            </div>
+            <div class="option" style="gap: 9px">
+              <div class="circle" style="background: #483b34"></div>
+              Dark Brown
+            </div>
+            <div class="option" style="gap: 9px">
+              <div class="circle" style="background: #7f7260"></div>
+              Deep Tan
+            </div>
+            <div class="option">
+              <div class="circle" style="background: #4e7fa1"></div>
+              Blue
+            </div>
+          </div>
+          <div class="option-title">Size :</div>
+
+          <div class="opt-group" id="size">
+            <div class="option active">S</div>
+            <div class="option">M</div>
+            <div class="option">L</div>
+            <div class="option">XL</div>
+            <div class="option">2XL</div>
+          </div>
+
+          <div class="option-title">Quantity :</div>
+          <div class="sp-flex-x" style="align-items: center">
+            <div class="addGroup">
+              <div class="reduce">
+                <img src="./image/reduce.png" alt="" class="img" />
+              </div>
+              <input type="number" min="1" name="" value="1" max="200" />
+              <div class="add">
+                <img src="./image/add.png" alt="" class="img" />
+              </div>
+            </div>
+            <div class="cart-btn btn-style">Add to cart</div>
+          </div>
+
+          <div class="sp-btn-style">Buy Now</div>
+          <img
+            class="sp-img"
+            style="width: 985px"
+            src="./image/footer-img.png"
+            alt=""
+          />
+          <div class="sp-nav5">
+            <img src="./image/car.png" alt="" />
+            <p>Free Shipping for Orders Over $60</p>
+          </div>
+        </div>
+
+        <div class="remark">
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Worldwide shipping</div>
+          </div>
+          <div class="sp-flex-x">
+            <div
+              class="icon"
+              style="width: 46px; height: 35px; margin-left: -5px"
+            ></div>
+            <div class="icon-text">Free returns</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">24/7 customer support</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon" style="width: 38px; height: 44px"></div>
+            <div class="icon-text">Secure payments</div>
+          </div>
+        </div>
+        <div class="mask">
+          <div class="pop">
+            <img class="sp-img" src="./image/size.png" alt="" />
+            <img class="close-btn" src="./image/close.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript">
+      let a = jQuery("#nav1").slide({
+        mainCell: ".nav11",
+        autoPlay: true,
+        effect: "leftMarquee",
+        interTime: 8,
+      });
+    </script>
+    <script>
+      // 倒计时
+      function getRandomNum(n, m) {
+        let _num = Math.floor((n + 1 - m) * Math.random() + m);
+        return _num;
+      }
+
+      let endTimeG;
+
+      function cutDownTime() {
+        let nowTime = new Date();
+        let endTime = new Date(endTimeG);
+        let leftTime = endTime.getTime() - nowTime.getTime();
+        let leftH = Math.floor((leftTime / (1000 * 60 * 60)) % 24),
+          leftM = Math.floor((leftTime / (1000 * 60)) % 60),
+          leftS = Math.floor((leftTime / 1000) % 60);
+        leftH = leftH >= 10 ? leftH : "0" + leftH;
+        leftM = leftM >= 10 ? leftM : "0" + leftM;
+        leftS = leftS >= 10 ? leftS : "0" + leftS;
+
+        return {
+          hour: leftH,
+          minute: leftM,
+          second: leftS,
+        };
+      }
+
+      function getCutDownTime() {
+        let rHour = getRandomNum(4, 12);
+        let curTime = new Date();
+        endTimeG = curTime.setHours(curTime.getHours() + rHour);
+        setInterval(function () {
+          let cutDownTimeText = cutDownTime();
+          $(".sp_top_cut_down .sp_left_view .sp_hour").html(
+            cutDownTimeText.hour
+          );
+          $(".sp_top_cut_down .sp_left_view .sp_minute").html(
+            cutDownTimeText.minute
+          );
+          $(".sp_top_cut_down .sp_left_view .sp_second").html(
+            cutDownTimeText.second
+          );
+        }, 1000);
+      }
+
+      getCutDownTime();
+    </script>
+
+    <script>
+      new Swiper("#swiper-btn", {
+        direction: "vertical",
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+      });
+
+      new Swiper("#swiperB", {
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+      });
+      $(".reduce").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) - 1;
+        if (num > 0) {
+          input.value = num;
+        }
+      });
+      $(".add").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) + 1;
+        input.value = num;
+      });
+      var thumbsp = new Swiper("#thumbs-p", {
+        spaceBetween: 20,
+        slidesPerView: 3,
+        watchSlidesVisibility: true, //防止不可点击
+        direction: "vertical",
+      });
+      let swiper = new Swiper("#swiper-p", {
+        on: {
+          slideChange: function (e) {
+            $("#color .option")
+              .eq(e.activeIndex)
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          },
+        },
+        thumbs: {
+          swiper: thumbsp,
+        },
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev",
+        },
+      });
+
+      $(function () {
+        $(".option").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+        });
+
+        let typeList = 0;
+        // style选项
+        let typeOptions = $("#color .option");
+        let img = $(".p-img");
+        // 切换选项
+        function checkType(index) {
+          swiper.slideTo(index);
+        }
+
+        typeOptions.click(function () {
+          let index = $(this).index();
+          checkType(index);
+        });
+
+        let initNum = 0;
+        $(".cart-btn").click(function () {
+          let input = $(".addGroup input")[0];
+          initNum = Number(input.value) + initNum;
+          $("#cardNum").html(initNum).show();
+        });
+
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > $("#part10").offset().top - 140) {
+            $(".time-part").hide();
+          } else {
+            $(".time-part").show();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

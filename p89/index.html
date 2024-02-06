@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/fix.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/jquery.SuperSlide.2.1.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/font/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/Lazyload.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div id="sp-nav1">
+        <div class="sp-nav11">
+          <div class="sp-nav-group">
+            <img src="./image/car.png" alt="" class="icon" />
+            <p>Free Shipping</p>
+          </div>
+          <div class="sp-nav-group">
+            <img src="./image/nav2.png" alt="" class="icon icon2" />
+            <p>BUY 2, GET 5% OFF!</p>
+          </div>
+        </div>
+      </div>
+      <div class="sp-header-top">
+        <img id="logo" class="text" src="./image/logo.png" alt="" />
+        <div class="sp-flex-x">
+          <a href="#shopping">
+            <div class="btn sp-uppercase">
+              buy now
+              <img src="./image/arrow-r.png" alt="" class="icon" /></div
+          ></a>
+          <div class="sp-cart sp-relative">
+            <img class="icon" src="./image/cart.png" alt="" />
+            <div class="num" id="cardNum">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="time-part sp-part-top" id="shopping">
+        <div class="flex-bet">
+          <div class="text sp-uppercase">LIMITED TIME OFFER</div>
+          <div class="sp-flex-x sp_top_cut_down">
+            <div class="min-text">MIN</div>
+            <div class="clock-wrap flex-bet sp_left_view">
+              <div class="square sp_hour">00</div>
+              <div class="dot"></div>
+              <div class="square sp_minute">00</div>
+              <div class="dot"></div>
+              <div class="square sp_second">00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="product-part">
+          <div class="product-box">
+            <div class="p-img-wrap">
+              <img id="pImg" class="p-img" src="./image/p1.png" alt="" />
+              <div class="brand">57% OFF</div>
+              <img src="./image/p.gif" alt="" class="gif" />
+            </div>
+            <div class="row">
+              <div class="opt-title">Color :</div>
+              <div class="opt-wrap" id="color">
+                <div class="option active">Black</div>
+                <div class="option">Champagne</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="opt-title">Quantity :</div>
+              <div class="addGroup">
+                <div class="reduce">
+                  <img src="./image/reduce.png" alt="" class="sp-img" />
+                </div>
+                <input type="number" min="1" name="" value="1" max="200" />
+                <div class="add">
+                  <img src="./image/add.png" alt="" class="sp-img" />
+                </div>
+              </div>
+            </div>
+            <div class="price-group">
+              <div class="price1">$<span id="price1">59.99</span></div>
+              <span class="price2">$139.99</span>
+            </div>
+
+            <div class="sp-btn-style">
+              Buy Now <img class="icon" src="./image/bottom-arrow.png" alt="" />
+            </div>
+            <div class="tip">
+              Brand new smart touch screen Bluetooth earphone
+            </div>
+            <img class="sp-img" src="./image/footer-img.png" alt="" />
+          </div>
+        </div>
+        <div id="sp-nav2">
+          <div class="sp-nav2-wrap">
+            <div class="sp-nav2">
+              <img src="./image/nav3.png" alt="" class="icon" />New Year Special
+              57% OFF
+            </div>
+          </div>
+        </div>
+        <div class="sp-part1">
+          <div class="sp-relative">
+            <div class="title">Smart Touch Screen Bluetooth</div>
+            <img class="sp-img" src="./image/bg2.jpg" alt="" />
+            <img src="./image/img1-1.png" alt="" class="img1" />
+            <img src="./image/img1-2.png" alt="" class="img2" />
+
+            <div class="price-group">
+              <div class="price1">$<span>59.99 </span></div>
+              <div class="price2">$139.99</div>
+            </div>
+            <div class="text-wrap">
+              <div>
+                <div class="circle"></div>
+                <p>Full-color touchscreen</p>
+              </div>
+              <div>
+                <div class="circle"></div>
+                <p>Noise-canceling Bluetooth headphones</p>
+              </div>
+              <div>
+                <div class="circle"></div>
+                <p>Touchscreen display</p>
+              </div>
+            </div>
+            <a href="#shopping">
+              <div class="btn-style sp-uppercase">
+                Buy Now<img src="./image/arrow-btn.png" alt="" class="icon" />
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="sp-part2">
+          <div class="title">
+            <span class="yellow">Six</span> Reasons to <br />
+            Choose Headphones
+          </div>
+          <div class="sub-title">New Conduction Headphones</div>
+          <ul>
+            <li>
+              <img class="sp-img" src="./image/img2-1.png" alt="" />
+              <div class="box" style="left: 50px">
+                <div class="title-s" style="margin-bottom: 15px">
+                  Ergonomics
+                </div>
+                <div class="text">
+                  Hidden in the ear without <br />
+                  flashing lights,
+                </div>
+              </div>
+            </li>
+            <li>
+              <img class="sp-img" src="./image/img2-2.png" alt="" />
+              <div class="box">
+                <div class="title-s">Touch color screen</div>
+                <div class="text">Smart Touch Screen Bluetooth</div>
+              </div>
+            </li>
+            <li>
+              <img
+                class="sp-img"
+                src="./image/img2-3.png"
+                style="
+                  width: 347px;
+                  height: 375px;
+                  margin-left: -15px;
+                  margin-top: -37px;
+                "
+                alt=""
+              />
+              <div class="box" style="top: 210px; left: 45px">
+                <div class="title-s">
+                  Play for <br />
+                  24 hours
+                </div>
+                <div class="text" style="font-size: 16px">
+                  It can play continuously for 24 hours with a charging compartm
+                </div>
+              </div>
+            </li>
+            <li>
+              <img class="sp-img" src="./image/img2-4.png" alt="" />
+              <div class="box" style="top: 210px; left: 40px">
+                <div class="title-s">13mm <br />dynamic horn</div>
+                <div class="text" style="font-size: 16px">
+                  Thousand yuan HiFi sound quality,<br />
+                  solid and powerful bass
+                </div>
+              </div>
+            </li>
+            <li>
+              <img class="sp-img" src="./image/img2-5.png" alt="" />
+              <div class="box" style="left: 25px">
+                <div class="title-s" style="margin-bottom: 12px">
+                  Auto-pairing
+                </div>
+                <div class="text" style="font-size: 16px">
+                  When you take out the earphones, they will automatically pair
+                </div>
+              </div>
+            </li>
+            <li>
+              <img class="sp-img" src="./image/img2-6.png" alt="" />
+              <div class="box">
+                <div class="title-s" style="margin-bottom: 12px">
+                  Bluetooth 5.3
+                </div>
+                <div class="text">
+                  reduced power consumption by nearly 50%, longer battery life
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="sp-part3 sp-relative">
+          <img class="sp-img" src="./image/img3.jpg" alt="" />
+          <div class="sp-title">
+            <span class="yellow">Simple</span> Touch Operation
+          </div>
+          <img src="./image/img3.gif" alt="" class="gif" />
+          <div class="text2">Intuitive Touch Screen Control</div>
+        </div>
+
+        <div class="sp-part4 sp-relative">
+          <div class="title">
+            <span class="yellow">Full-color LCD touchscreen</span>
+          </div>
+          <p>
+            Full-color LCD touchscreen, stylish and powerful. Control incoming
+            calls, music playback, and various headphone app functions,
+            including EQ settings, all at your fingertips
+          </p>
+
+          <img class="sp-img" src="./image/img4.gif" alt="" />
+        </div>
+        <a href="#shopping">
+          <div class="btn-style btn-style1 sp-uppercase">
+            Buy Now
+            <img src="./image/arrow-btn.png" alt="" class="icon" />
+          </div>
+        </a>
+
+        <div class="sp-part5 sp-relative">
+          <img class="sp-img" src="./image/img5.jpg" alt="" />
+          <div class="area">
+            <div class="title">Personalized screensaver customization</div>
+            <div class="sub-title">Change at will, capture the highlights</div>
+          </div>
+          <p>Randomly includes 5 stylish screensavers</p>
+        </div>
+
+        <div class="sp-part6">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img6.jpg" alt="" />
+            <div class="area">
+              <div class="title">
+                Enhanced social features for a more engaging gift experience
+              </div>
+              <div class="sub-title">
+                Customizable charging case screensavers, upgraded for new
+                purposes, suitable for corporate promotion, event gifts, and
+                commemorative activities
+              </div>
+            </div>
+          </div>
+          <img class="sp-img img2" src="./image/img6-2.jpg" alt="" />
+        </div>
+
+        <div class="sp-part7">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img7.jpg" alt="" />
+            <div class="area">
+              <div class="title">Double noise cancelling technology</div>
+              <div class="sub-title">
+                Intelligently optimized noise reduction <br />
+                for a quieter journey
+              </div>
+            </div>
+          </div>
+          <div class="sp-relative box">
+            <img class="sp-img" src="./image/img7-2.jpg" alt="" />
+            <div class="text t1">Intelligently optimized noise reduction</div>
+            <div class="text t2">Before noise reduction</div>
+            <div class="text t3">After noise reduction</div>
+          </div>
+          <p>
+            Integrated fully adaptive digital noise reduction technology
+            automatically detects the noise environment, conducts real-time
+            high-precision counteraction of sound waves, and optimizes
+            intelligent noise reduction
+          </p>
+        </div>
+        <div class="sp-part8">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img8.gif" alt="" />
+            <div class="area">
+              <div class="title">
+                Noise reduction sleep aid feature <br />
+                Enjoy peaceful rest during your journey
+              </div>
+              <div class="text">
+                Creating a tranquil space for you to rest amidst the chaos. You
+                can also set a timer to wake you up according to your
+                preferences, making your journey more relaxed and reassuring
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sp-part9 sp-relative">
+          <img class="sp-img" src="./image/img9.jpg" alt="" />
+          <div class="area">
+            <div class="title">More comfortable wearing</div>
+            <div class="text">
+              Ergonomic exterior design, conforms to the <br />
+              structure of the ear, ensuring a more stable and secure fit
+            </div>
+          </div>
+          <div class="tip t1">Exquisite detailing</div>
+          <div class="tip t2">
+            Ergonomic <br />
+            exterior design
+          </div>
+        </div>
+        <div class="sp-part10">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img10.gif" alt="" />
+            <div class="title">Smart ambient sound</div>
+            <div class="text">
+              Perceive ambient sounds while listening to music, allowing
+              seamless communication with others without taking off the
+              headphones
+            </div>
+          </div>
+        </div>
+        <div class="sp-part11">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img11.gif" alt="" />
+            <div class="title">
+              Sound preferences <br />
+              in your control
+            </div>
+            <div class="text">
+              Use the touchscreen to quickly select from preset sound pro-files.
+              Utilize the app for precise customization of your own EQ sound
+              profiles
+            </div>
+          </div>
+        </div>
+        <div class="sp-part12">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img12.jpg" alt="" />
+            <div class="text-wrap">
+              <p>Listening to music audio mode</p>
+              <p>
+                audio drama <br />
+                audio mode
+              </p>
+              <p>
+                Gaming audio <br />
+                mode
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="sp-part13">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img13.gif" alt="" />
+            <div class="title">Voice perception mode</div>
+            <div class="sub-title">
+              Making calls as natural as face-to-face conversations
+            </div>
+            <div class="text">
+              Allows you to hear your own volume and tone during phone
+              conversations
+            </div>
+          </div>
+          <img
+            class="sp-img"
+            style="margin-top: -2px"
+            src="./image/img14.jpg"
+            alt=""
+          />
+        </div>
+        <div class="sp-part14 sp-relative">
+          <div class="title">
+            <span class="yellow">Simple</span> Touch Operation
+          </div>
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img15.png" alt="" />
+            <div class="tip">
+              <img src="./image/hand4.png" alt="" />
+              <p>Active noise cancellation</p>
+            </div>
+          </div>
+          <div class="img-group sp-uppercase">
+            <div>
+              <img class="hand" src="./image/hand1.png" alt="" />
+              <div>
+                <div class="title-s">Single click</div>
+                <div class="text">Play/Pause</div>
+              </div>
+            </div>
+            <div>
+              <img class="hand" src="./image/hand2.png" alt="" />
+              <div>
+                <div class="title-s">Double click</div>
+                <div class="text">Answer/hang up<span>/</span>Next song</div>
+              </div>
+            </div>
+            <div>
+              <img class="hand" src="./image/hand3.png" alt="" />
+              <div>
+                <div class="title-s">Long press for 2 seconds</div>
+                <div class="text">Voice/mute - activated Siri</div>
+              </div>
+            </div>
+          </div>
+          <a href="#shopping">
+            <div class="btn-style">
+              Buy Now
+              <img src="./image/btn-arrow-r.png" alt="" class="icon" />
+            </div>
+          </a>
+        </div>
+        <div class="sp-part15">
+          <div class="sp-relative">
+            <div class="title sp-uppercase">
+              <span class="yellow">24H</span> Playtime Digital Display
+            </div>
+            <img class="sp-img" src="./image/img16.jpg" alt="" />
+          </div>
+          <div class="box">
+            <div>
+              <div class="circle"></div>
+              Enjoy 24 hours of playback on a single charge and an additional 24
+              hours with the charging case.
+            </div>
+            <div>
+              <div class="circle"></div>
+              The LED Power Display keeps you informed about the battery status,
+              so you never have to worry about running out of power."
+            </div>
+          </div>
+        </div>
+        <div class="sp-part16">
+          <div class="sp-relative">
+            <div class="title sp-uppercase">
+              Bluetooth <span class="yellow">5.3</span> and Fast Connection
+            </div>
+            <img class="sp-img" src="./image/img17.jpg" alt="" />
+            <img class="icon" src="./image/bluetooth.png" alt="" />
+          </div>
+          <div class="box">
+            <div>
+              <div class="circle"></div>
+              Stronger signal, faster connection speed, compatible with almost
+              all Bluetooth-enabled devices,
+            </div>
+            <div>
+              <div class="circle"></div>
+              No waiting, ready to use in seconds upon retrieval
+            </div>
+          </div>
+        </div>
+        <div class="sp-part17">
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img18.jpg" alt="" />
+            <div class="area">
+              <div class="title">Specification:</div>
+              <p>
+                Product Name: <br />
+                Smart Touch Screen Bluetooth <br />
+                Bluetooth version: 5.3 chip <br />
+                Charging interface: <br />
+                Type-CCharging interface <br />
+                Speaker diameter: 11mm <br />
+                Battery capacity: 350mAh <br />
+                Listening time: About 72h <br />
+                Bluetooth distance: 10m
+              </p>
+            </div>
+          </div>
+          <div class="sp-relative">
+            <img class="sp-img" src="./image/img19.jpg" alt="" />
+            <div class="text">Answer calls with headphones at any time</div>
+          </div>
+        </div>
+        <div id="sp-nav3">
+          <div class="sp-nav3-wrap">
+            <div class="sp-nav3">
+              <img src="./image/nav4.png" alt="" class="icon" />More users
+              choose to buy two pieces
+            </div>
+          </div>
+        </div>
+        <div class="sp-part18">
+          <div class="bg">
+            <div class="flex-bet">
+              <div class="sp-title sp-uppercase">Buy more give more</div>
+              <div>
+                <div class="t1">Act now!</div>
+                <div class="t2 sp-uppercase">
+                  Today <br />
+                  Only
+                </div>
+              </div>
+            </div>
+            <div class="box-wrap">
+              <div class="box">
+                <img class="p-img" src="./image/p1.png" alt="" />
+                <div class="box-content">
+                  <div class="title">BLACK</div>
+                  <div class="price-group">
+                    <div class="price2">$139.99</div>
+                    <div class="price1">$<span>59.99</span></div>
+                    <div class="price3">57% OFF</div>
+                  </div>
+                  <div class="btn-style">Free Shipping</div>
+                </div>
+              </div>
+              <div class="btn-wrap">
+                <div class="btn-style btn1 sp-cart-btn">
+                  <img src="./image/add-blue.png" alt="" class="icon" /> Add to
+                  cart
+                </div>
+                <a class="btn-style btn2" href="#shopping">
+                  Buy Now
+                  <img class="icon" src="./image/arrow-r.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="box-wrap">
+              <div class="box">
+                <img class="p-img" src="./image/p2.png" alt="" />
+                <div class="box-content">
+                  <div class="title">Champagne</div>
+                  <div class="price-group">
+                    <div class="price2">$139.99</div>
+                    <div class="price1">$<span>59.99</span></div>
+                    <div class="price3">57% OFF</div>
+                  </div>
+                  <div class="btn-style">Free Shipping</div>
+                </div>
+              </div>
+              <div class="btn-wrap">
+                <div class="btn-style btn1 sp-cart-btn">
+                  <img src="./image/add-blue.png" alt="" class="icon" /> Add to
+                  cart
+                </div>
+                <a class="btn-style btn2" href="#shopping">
+                  Buy Now
+                  <img class="icon" src="./image/arrow-r.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sp-footer2">
+          <img class="sp-img" src="./image/footer-img2.png" alt="" />
+        </div>
+        <div class="sp-nav5">
+          <img src="./image/car.png" alt="" class="icon" />
+          Free Shipping for Orders Over $39.99
+        </div>
+        <div class="remark">
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Worldwide shipping</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon" style="width: 33px; height: 27px"></div>
+            <div class="icon-text">Free returns</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">24/7 customer support</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon" style="width: 28px; height: 32px"></div>
+            <div class="icon-text">Secure payments</div>
+          </div>
+        </div>
+      </section>
+      <div class="sp-mask"></div>
+    </div>
+    <script type="text/javascript">
+      jQuery("#sp-nav1").slide({
+        mainCell: ".sp-nav11",
+        autoPlay: true,
+        effect: "leftMarquee",
+        interTime: 8,
+        vis: 2,
+        scroll: 2,
+      });
+      jQuery("#sp-nav2").slide({
+        mainCell: ".sp-nav2-wrap",
+        autoPlay: true,
+        effect: "leftMarquee",
+        interTime: 8,
+        vis: 1,
+        scroll: 1,
+      });
+      jQuery("#sp-nav3").slide({
+        mainCell: ".sp-nav3-wrap",
+        autoPlay: true,
+        effect: "leftMarquee",
+        interTime: 8,
+        vis: 1,
+        scroll: 1,
+      });
+    </script>
+    <script>
+      // 倒计时
+      function getRandomNum(n, m) {
+        let _num = Math.floor((n + 1 - m) * Math.random() + m);
+        return _num;
+      }
+
+      let endTimeG;
+
+      function cutDownTime() {
+        let nowTime = new Date();
+        let endTime = new Date(endTimeG);
+        let leftTime = endTime.getTime() - nowTime.getTime();
+        let leftH = Math.floor((leftTime / (1000 * 60 * 60)) % 24),
+          leftM = Math.floor((leftTime / (1000 * 60)) % 60),
+          leftS = Math.floor((leftTime / 1000) % 60);
+        leftH = leftH >= 10 ? leftH : "0" + leftH;
+        leftM = leftM >= 10 ? leftM : "0" + leftM;
+        leftS = leftS >= 10 ? leftS : "0" + leftS;
+
+        return {
+          hour: leftH,
+          minute: leftM,
+          second: leftS,
+        };
+      }
+
+      function getCutDownTime() {
+        let rHour = getRandomNum(4, 12);
+        let curTime = new Date();
+        endTimeG = curTime.setHours(curTime.getHours() + rHour);
+        setInterval(function () {
+          let cutDownTimeText = cutDownTime();
+          $(".sp_top_cut_down .sp_left_view .sp_hour").html(
+            cutDownTimeText.hour
+          );
+          $(".sp_top_cut_down .sp_left_view .sp_minute").html(
+            cutDownTimeText.minute
+          );
+          $(".sp_top_cut_down .sp_left_view .sp_second").html(
+            cutDownTimeText.second
+          );
+        }, 1000);
+      }
+
+      getCutDownTime();
+    </script>
+    <script>
+      $(".reduce").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) - 1;
+        if (num > 0) {
+          input.value = num;
+        }
+      });
+      $(".add").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) + 1;
+        input.value = num;
+      });
+    </script>
+    <script>
+      var lazy = new Lazyload({ distance: 500 });
+    </script>
+    <script>
+      $(function () {
+        $(".option").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+        });
+
+        // style选项
+        let typeOptions = $("#color .option");
+
+        // 切换选项
+        function checkType(index) {
+          if (index == 0) {
+            $("#pImg")[0].src = "./image/p1.png";
+          } else if (index == 1) {
+            $("#pImg")[0].src = `./image/p2.png`;
+          }
+        }
+
+        typeOptions.click(function () {
+          let index = $(this).index();
+          checkType(index);
+        });
+
+        // 加入购物车
+
+        let initNum = 0;
+        $(".sp-cart-btn").click(function () {
+          initNum = initNum + 1;
+
+          $("#cardNum").html(initNum);
+          var img = $(this).parent().parent().find(".p-img");
+          var flyer = img[0].cloneNode(true);
+          flyer.classList.add("sp-clone");
+          $(".sp-part18").append(flyer);
+
+          $(".sp-clone").css({
+            width: img[0].width,
+            height: img[0].height,
+            position: "fixed",
+            top: img[0].offsetTop,
+            left: img.offset().left,
+            "z-index": "99",
+          });
+          let finish = $(".sp-cart");
+          $(".sp-clone").animate(
+            {
+              top: finish[0].offsetTop + $(".time-part").height(),
+              left: finish[0].offsetLeft + finish.width() / 2,
+              width: 50, // 结束时的大小，根据需要调整
+              height: 50, // 结束时的大小，根据需要调整
+              opacity: 0.4,
+            },
+            500,
+            "linear",
+            function () {
+              $(this).animate(
+                {
+                  width: 0,
+                  height: 0,
+                  opacity: 0,
+                },
+                0,
+                function () {
+                  $(".sp-header-top .sp-cart").addClass("sp-shake");
+                  setTimeout(function () {
+                    $(".sp-header-top .sp-cart").removeClass("sp-shake");
+                  }, 400);
+                  // $(this).detach(); // 完成动画后移除克隆的图片
+                }
+              );
+            }
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

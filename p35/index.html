@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/fix.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/font/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="sp-header-top">
+        <img id="logo" class="text" src="./image/logo.png" alt="" />
+
+        <a href="#shopping">
+          <div class="btn sp-uppercase">
+            JETZT KAUFEN
+            <img src="./image/arrow-r.png" alt="" class="icon" /></div
+        ></a>
+        <div class="sp-cart sp-relative">
+          <img class="icon" src="./image/cart.png" alt="" />
+          <div class="num">1</div>
+        </div>
+      </div>
+      <div class="time-part">
+        <div class="flex-bet">
+          <div class="text">
+            <div class="swiper" id="timeWord">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./image/time1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./image/time2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="min-text">MIN</div>
+            <div class="clock-wrap flex-bet">
+              <div class="square" id="hh"></div>
+              <div class="dot"></div>
+              <div class="square" id="mm"></div>
+              <div class="dot"></div>
+              <div class="square" id="ss"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="swiper-part sp-part-top">
+          <div class="swiper" id="swiper0">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide1">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/banner/b1.png" alt="" />
+                  <div class="area">
+                    <div class="title">kabelloser</div>
+                    <div class="sub-title">Staubsauger für das Auto</div>
+
+                    <div class="text-s a2">Vacuum Force</div>
+                    <div class="text2 yellow">9000pa</div>
+                    <div class="text-s a3">Drei-in-eins</div>
+                    <div class="text3 yellow">Vielfunktionell</div>
+                  </div>
+                </div>
+                <div class="btn-part btn-style">
+                  Ultra-lightweight <br />
+                  cordless freedom
+                </div>
+              </div>
+              <div class="swiper-slide slide2">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/banner/b2.png" alt="" />
+                  <div class="title">
+                    <span class="yellow">Ultra-lightweight </span> cordless
+                    freedom
+                  </div>
+                  <div class="group">
+                    <div class="text t1">
+                      Schnelles Sammeln von Staub und Sand
+                    </div>
+                    <div class="text t2">
+                      Reinigen von Möbeln <br />
+                      aus Pelz.
+                    </div>
+                  </div>
+                  <div class="group g2" style="top: 920px">
+                    <div class="text t3">
+                      Du kannst eine Matratze oder einen Kreis aufblasen.
+                    </div>
+                    <div class="text t4">Die Funktion einer Vakuummaschine</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide slide3">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/banner/b3.png" alt="" />
+                  <div class="title">
+                    <span class="yellow">Vielseitige </span> Verwendung
+                  </div>
+                  <div class="sub-title">Auto- und Haushaltsreinigung</div>
+                  <div class="group">
+                    <div class="text">Reinigung der Sitzbank</div>
+                    <div class="text">Autoreinigung</div>
+                    <div class="text">Aufblasfunktion</div>
+                  </div>
+                  <div class="group g2" style="top: 890px">
+                    <div class="text">Tastaturreinigung</div>
+                    <div class="text">
+                      In engen <br />
+                      Räumen reinigen
+                    </div>
+                    <div class="text">Vakuumfunktion</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide slide4">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/banner/b4.png" alt="" />
+                  <div class="area">
+                    <div class="yellow">6000mAh</div>
+                    <div class="word">Akkukapazität</div>
+                  </div>
+                  <div class="text">
+                    Lange Standby-Zeit <br />
+                    von 365 Tagen
+                  </div>
+                </div>
+                <div class="btn-part btn-style">
+                  Langzeitstandby <br />
+                  Langlebige Batterie
+                </div>
+              </div>
+              <div class="swiper-slide slide5">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/banner/b5.png" alt="" />
+                  <div class="title">
+                    <span class="yellow">Alle Zubehörteile </span> <br />sind
+                    vorhanden.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="thumbs-wrap">
+            <div class="swiper" id="thumbs">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b2/b1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b2/b2.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b2/b3.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b2/b4.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b2/b5.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="button button-prev"><div class="icon"></div></div>
+            <div class="button button-next"><div class="icon"></div></div>
+          </div>
+        </div>
+        <div class="sp-part1 sp-relative">
+          <img class="sp-img" src="./image/img1.png" alt="" />
+          <img src="./image/word.png" alt="" class="title" />
+          <div class="sub-title">Staubsauger</div>
+          <img src="./image/img1-brand.png" alt="" class="brand" />
+          <img src="./image/img1-word.png" alt="" class="word" />
+          <a href="#shopping" class="btn">
+            <div class="sp-relative">
+              <img src="./image/img1-btn.png" alt="" class="sp-img" />
+              <img src="./image/img1-btn-word.png" alt="" class="btn-word" />
+            </div>
+          </a>
+        </div>
+
+        <div class="sp-part2">
+          <div class="title">Suit Combination Accessories</div>
+          <img class="sp-img" src="./image/img2.png" alt="" />
+          <ul>
+            <li>
+              <div class="num">1</div>
+              Host
+            </li>
+
+            <li>
+              <div class="num">2</div>
+              Dust Blower 2-Piece Set
+            </li>
+            <li>
+              <div class="num">3</div>
+              USB Charging Cable
+            </li>
+            <li>
+              <div class="num">4</div>
+              Long Flat Suckers (2-Piece Set)
+            </li>
+            <li>
+              <div class="num">5</div>
+              Inflatable Nozzle 2-Piece Set
+            </li>
+          </ul>
+        </div>
+        <div class="sp-part3">
+          <div class="sp-title">Verschiedene Reinigungszubehörteile</div>
+          <div class="swiper" id="swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide s1">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/s1.png" alt="" />
+                  <div class="area">
+                    <div class="title">Comprehensive Dust Absorption</div>
+                    <div class="sub-title">
+                      Long And Flat Suction Mouth + Brush
+                    </div>
+                  </div>
+                  <img src="./image/1.gif" alt="" class="gif" />
+                </div>
+              </div>
+              <div class="swiper-slide s2">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/s2.png" alt="" />
+                  <div class="area">
+                    <div class="title">Precision Dust Expulsion</div>
+                    <div class="sub-title">Blow Long Nozzle + Brush</div>
+                    <div class="text">
+                      Effectively remove dust fromn challenging nooksand
+                      crannies wit
+                    </div>
+                  </div>
+                  <img src="./image/2.gif" alt="" class="gif" />
+                </div>
+              </div>
+              <div class="swiper-slide s3">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/s3.png" alt="" />
+                  <div class="area">
+                    <div class="title">Air Evacuation for Vacuum</div>
+                    <div class="sub-title">Multi-function Pumping Nozzle</div>
+                    <div class="text">
+                      Achieve a vacuum effect by expertly evacuatingair from
+                      targeted spaces.
+                    </div>
+                  </div>
+                  <img src="./image/3.gif" alt="" class="gif3 gif" />
+                  <!-- <img src="./image/4.gif" alt="" class="gif" /> -->
+                </div>
+              </div>
+              <div class="swiper-slide s4">
+                <div class="sp-relative">
+                  <img class="sp-img" src="./image/s4.png" alt="" />
+                  <div class="area">
+                    <div class="title">Efficient Object Inflation</div>
+                    <div class="sub-title">Multi-function Air Blower</div>
+                    <div class="text">
+                      Skillfully inflate objects to a functional state,catering
+                      to your various needs
+                    </div>
+                  </div>
+                  <img src="./image/5.gif" alt="" class="gif" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-btn swiper-button-prev"></div>
+            <div class="swiper-btn swiper-button-next"></div>
+          </div>
+        </div>
+
+        <div class="sp-part4 sp-relative">
+          <img class="sp-img" src="./image/img3.png" alt="" />
+          <div class="title">Integrierter leistungsstarker Motor</div>
+          <img class="gif" src="./image/6.gif" alt="" />
+        </div>
+        <div class="sp-part5 sp-relative">
+          <img class="sp-img" src="./image/img4.png" alt="" />
+          <div class="area">
+            <div class="title">
+              <span class="yellow">Tesla</span>-ähnliche Technik-Motor
+            </div>
+            <div class="sub-title">Turbinenschaufelrad</div>
+            <div class="line"></div>
+          </div>
+          <div class="area2">
+            <img src="./image/wind.png" alt="" />
+            <div class="text">Die Adsorptionskraft wurde um 100% erhöht</div>
+          </div>
+        </div>
+
+        <div class="sp-part6">
+          <img class="sp-img" src="./image/img5.png" alt="" />
+          <div class="title">Haushaltsreinigungsgeräte</div>
+          <div class="tip t1">Schreibtisch aufräumen</div>
+          <div class="tip t2">Haustierhaare entfernen</div>
+          <div class="tip t3">Staub entfernen</div>
+        </div>
+        <div class="sp-part7 sp-relative">
+          <img class="sp-img" src="./image/img6.png" alt="" />
+          <div class="title">Auto-Reinigungsgerät</div>
+          <div class="title t2">Auto-Reinigungsgerät</div>
+        </div>
+        <div class="sp-part8 sp-relative">
+          <img class="sp-img" src="./image/img7.png" alt="" />
+          <div class="group">
+            <div class="text">
+              Effiziente Reinigung von Sitzen, Sofas und mehra
+            </div>
+            <div class="text">
+              Geeignet für die Reinigung enger und tiefer Bereiche.
+            </div>
+          </div>
+          <div class="group g2">
+            <div class="text">
+              Ermöglicht effiziente Reinigung von kleinen Spalten.
+            </div>
+            <div class="text">
+              Zum Wegblasen von großflächi-<br />gen Verschmutzungen geeignet
+            </div>
+          </div>
+        </div>
+        <div class="sp-part9 sp-relative">
+          <img class="sp-img" src="./image/img8.png" alt="" />
+          <div class="title">
+            <span class="yellow">Tesla</span>-kompatible Batterie mit Type-C
+            Schnellladung
+          </div>
+          <div class="group">
+            <div>
+              <div class="row">
+                <div class="f1">6000</div>
+                <div class="f2">mAh</div>
+              </div>
+              <div class="text">Große Kapazität</div>
+            </div>
+            <div>
+              <div class="row">
+                <div class="f1">80</div>
+                <div class="f2">min</div>
+              </div>
+              <div class="text">Nutzungszeit</div>
+            </div>
+            <div>
+              <div class="row">
+                <div class="f1">365</div>
+                <div class="f2">day</div>
+              </div>
+              <div class="text">extrem lange Standby-Zeit</div>
+            </div>
+          </div>
+        </div>
+        <div class="sp-part10 sp-relative">
+          <div class="title">
+            <p class="yellow">Waschbarer Filter</p>
+            wiederverwendbar
+          </div>
+          <div class="group">
+            <div>
+              <img src="./image/img9-1.png" alt="" />
+              <div class="text">Entnehmen Sie die</div>
+            </div>
+            <div>
+              <img src="./image/img9-2.png" alt="" />
+              <div class="text">Müll herausnehmen</div>
+            </div>
+            <div>
+              <img src="./image/img9-3.png" alt="" />
+              <div class="text">Reinigungswerkzeug</div>
+            </div>
+            <div>
+              <img src="./image/img9-4.png" alt="" />
+              <div class="text">Sauberen Filter einsetzen</div>
+            </div>
+          </div>
+        </div>
+        <div class="sp-part11 sp-relative">
+          <img class="sp-img" src="./image/img10.png" alt="" />
+          <div class="sub-title">Vollständiges Zubehör</div>
+          <div class="title">SPEZIFIKATIONEN</div>
+
+          <div class="area">
+            Auflade-Methode: USB <br />
+            Nennspannung: DC 7,4V<br />
+            Nennleistung: 120W<br />
+            Material: ABS<br />
+            Farbe: Grauweiß, Silbergrau, Dunkelgrün, Schwarz<br />
+            Produktgröße: 210*160*65mm<br />
+            Produktgewicht: 290g<br />
+            Paket enthält: 1 * Leistungsstarker kabelloser <br />
+            Autostaubsauger ( Basic Kit)
+          </div>
+        </div>
+        <div class="nav2">Ganzer Laden! Mehr kaufen, mehr sparen!</div>
+        <div class="product-part" id="shopping">
+          <div class="sp-productImg-wrap sp-relative">
+            <div class="left-arrow"></div>
+            <div class="right-arrow active"></div>
+
+            <div class="sp-relative">
+              <img id="pImg" class="p-img" src="./image/p-sliber.png" alt="" />
+            </div>
+            <div class="thumbs-wrap">
+              <img class="p-img-s selected" src="./image/p-sliber.png" alt="" />
+              <img class="p-img-s" src="./image/p-gray.png" alt="" />
+              <img class="p-img-s" src="./image/p-black.png" alt="" />
+              <img class="p-img-s" src="./image/p-green.png" alt="" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="option-title">Style :</div>
+            <div class="opt-group" id="color">
+              <div class="option active" style="width: 757px">
+                <img src="./image/HOT.png" alt="" class="icon" /> Silber * Extra
+                Power Version
+              </div>
+              <div class="option">Gray White * Basic Kit</div>
+              <div class="option">Black * Basic Kit</div>
+              <div class="option" style="width: 582px">
+                Dark Green * Basic Kit
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 20px">
+            <div class="option-title">Anzahl :</div>
+
+            <div class="addGroup">
+              <div class="reduce">
+                <img src="./image/reduce.png" alt="" class="img" />
+              </div>
+              <input type="number" min="1" name="" value="1" max="200" />
+              <div class="add">
+                <img src="./image/add.png" alt="" class="img" />
+              </div>
+            </div>
+          </div>
+          <div class="price-group">
+            <div class="price1">$<span>24.99</span></div>
+            <span class="price2">$37.99</span>
+          </div>
+          <div class="cart-btn btn-style">In den Einkaufswagen</div>
+
+          <div class="sp-btn-style">
+            Jetzt Kaufen <img src="./image/arrow-r.png" alt="" class="icon" />
+          </div>
+        </div>
+        <div class="footer">
+          <img class="sp-img" src="./image/shoify-worldpay_klarna.png" alt="" />
+        </div>
+        <img class="sp-img" src="./image/size.png" alt="" />
+        <div class="nav3">
+          <img src="./image/car.png" alt="" class="car" />
+          <div>Kostenloser Versand ab €49</div>
+        </div>
+
+        <div class="remark">
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Worldwide shipping</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon" style="width: 45px; height: 35px"></div>
+            <div class="icon-text">Free returns</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">24/7 customer support</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon" style="width: 38px; height: 44px"></div>
+            <div class="icon-text">Secure payments</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./js/dayjs.min.js"></script>
+
+    <script>
+      setInterval(() => {
+        let time = new Date();
+        $("#ss").html(dayjs(time).format("ss"));
+        $("#mm").html(dayjs(time).format("mm"));
+        $("#hh").html(dayjs(time).format("hh"));
+      }, 1000);
+      new Swiper("#swiper2", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+          delay: 5000,
+        },
+      });
+
+      new Swiper("#timeWord", {
+        direction: "vertical",
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+      });
+
+      let thumbsSwiper = new Swiper("#thumbs", {
+        spaceBetween: 5,
+        slidesPerView: 5,
+        watchSlidesVisibility: true, //防止不可点击
+      });
+      new Swiper("#swiper0", {
+        thumbs: {
+          swiper: thumbsSwiper,
+        },
+        navigation: {
+          prevEl: ".button-prev",
+          nextEl: ".button-next",
+        },
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+      });
+
+      $(".reduce").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value);
+        if (num > 1) {
+          input.value = num - 1;
+        }
+      });
+      $(".add").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value);
+        input.value = num + 1;
+      });
+
+      $(function () {
+        $(".option").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+        });
+
+        let typeList = 0;
+        // style选项
+        let typeOptions = $("#color .option");
+        // 缩略图
+        let thumbs = $(".thumbs-wrap .p-img-s");
+
+        // 左右箭头
+        $(".right-arrow").click(function () {
+          if (typeList < typeOptions.length - 1) {
+            typeList += 1;
+          }
+          typeOptions
+            .eq(typeList)
+            .addClass("active")
+            .siblings()
+            .removeClass("active");
+          checkType(typeList);
+          $(".p-img-s")
+            .eq(typeList)
+            .addClass("selected")
+            .siblings()
+            .removeClass("selected");
+        });
+        $(".left-arrow").click(function () {
+          if (typeList > 0) {
+            typeList -= 1;
+          }
+          typeOptions
+            .eq(typeList)
+            .addClass("active")
+            .siblings()
+            .removeClass("active");
+          checkType(typeList);
+
+          $(".p-img-s")
+            .eq(typeList)
+            .addClass("selected")
+            .siblings()
+            .removeClass("selected");
+        });
+
+        // 切换选项
+        function checkType(index) {
+          if (index == 0) {
+            $("#pImg")[0].src = "./image/p-sliber.png";
+          } else if (index == 1) {
+            $("#pImg")[0].src = `./image/p-gray.png`;
+          } else if (index == 2) {
+            $("#pImg")[0].src = `./image/p-black.png`;
+          } else if (index == 3) {
+            $("#pImg")[0].src = `./image/p-green.png`;
+          }
+        }
+
+        typeOptions.click(function () {
+          let index = $(this).index();
+          checkType(index);
+          $(".p-img-s")
+            .eq(index)
+            .addClass("selected")
+            .siblings()
+            .removeClass("selected");
+        });
+        thumbs.click(function () {
+          let index = $(this).index();
+          checkType(index);
+          $(".p-img-s")
+            .eq(index)
+            .addClass("selected")
+            .siblings()
+            .removeClass("selected");
+
+          typeOptions
+            .eq(index)
+            .addClass("active")
+            .siblings()
+            .removeClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
