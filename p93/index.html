@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/fix.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/jquery.SuperSlide.2.1.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/font/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="sp-nav-top">
+        <img src="./image/flower.gif" alt="" class="icon" />
+        <p>FREE SHIPPING FOR ORDERS OVER <span>£39.99</span></p>
+      </div>
+      <div class="sp-header-top">
+        <img id="logo" class="text" src="./image/logo.png" alt="" />
+        <div class="sp-flex-x">
+          <a href="#shopping"> <div class="btn sp-uppercase">Order now</div></a>
+          <div class="sp-cart sp-relative">
+            <img class="icon" src="./image/cart.png" alt="" />
+            <div class="num" id="cardNum">0</div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="sp-part1 sp-part-top">
+          <canvas id="canvas_sakura"></canvas>
+          <div class="title">
+            <p>Pop Up Flower Bouquet</p>
+            <p>Greeting Card</p>
+          </div>
+          <img src="./image/img1.png" alt="" class="sp-img" />
+          <img src="./image/img1-off.png" alt="" class="off" />
+          <a href="#shopping">
+            <div class="btn-style btn-style1">BUY NOW</div>
+          </a>
+        </div>
+
+        <div class="sp-part2">
+          <div class="sp-relative">
+            <img src="./image/img2.png" alt="" class="sp-img" />
+            <div class="sp-title">
+              Give your significant other a bouquet <br />
+              as big as your love!
+            </div>
+          </div>
+        </div>
+
+        <div class="sp-part3">
+          <img src="./image/img3.png" alt="" class="sp-img" />
+
+          <div class="sp-title">
+            It's always a good time <br />
+            to send a smile.
+          </div>
+          <div class="sp-sub-title">
+            Birthdays, Mother's Day, Easter, Valentine's Day & more. We have
+            classic bouquets, unique modern gardens, festive holiday
+            arrangements trees, and wreaths to add to your home decor, or send
+            to friends and family.
+          </div>
+        </div>
+
+        <div class="sp-part4">
+          <img src="./image/img4.png" alt="" class="sp-img" />
+
+          <div class="sp-title">Maintenance Free Flowers</div>
+          <div class="sp-sub-title">
+            Beautifullypackaged&ready to gift, flowers are shipped in a flat,
+            ready-to-mail envelope for convenient gift giving. Envelope &
+            Greeting, Card Envelopes match the arrangement and each includes a
+            coordinating blank greeting.
+          </div>
+        </div>
+        <div class="sp-part5">
+          <img src="./image/img5.png" alt="" class="sp-img" />
+
+          <div class="sp-sub-title">
+            Bring the beauty of the botanical world to a loved one in a more
+            sustainable, and everlasting way. We donate one percent of sales and
+            plant a tree for each bouquet sold.
+          </div>
+          <a href="#shopping">
+            <div class="btn-style btn-style1">BUY NOW</div>
+          </a>
+        </div>
+        <div class="sp-part6">
+          <div class="title1">
+            A beautiful gift for birthday, friendship, <br />
+            encouragement, sympathy, get well or thank you cards
+          </div>
+          <div class="sp-relative">
+            <div class="swiper" id="swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b1.png" alt="" />
+                  <div class="title">Dear Dahlia</div>
+                  <p>
+                    This bold and dramatic pop-up bouquet of Dear Dahlia
+                    displays a vibrant assortment of calla lilies, dahlias, and
+                    eucalyptus. Measuring 17" tall this is sure to make a
+                    'Grand' impression to any lucky recipient.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b2.png" alt="" />
+                  <div class="title">Field of Daisies</div>
+                  <p>
+                    Bountiful Daisies and Wildflowers symbolize freshly gathered
+                    in the foothills of Colorado are in full bloom with our
+                    latest paper bouquet. This charming pop up bouquet
+                    symbolizes friendship and new beginnings. Presented in a
+                    classic embossed vase, this bouquet is sure to bring a
+                    smile.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b3.png" alt="" />
+                  <div class="title">Red Roses</div>
+                  <p>
+                    This classic pop up bouquet boasts a full dozen luscious Red
+                    Roses, with a sprinkling of Baby’s Breath for the perfect
+                    Valentine's Day card.Show your love to your sweeties,
+                    crushes, teachers, mothers, kiddos, and cuties with these
+                    timeless beauties.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b4.png" alt="" />
+                  <div class="title">Cherry Blossom</div>
+                  <p>
+                    Meet Paper's Cherry Blossom bouquet: Elegant, chic, and
+                    timeless! Native to Japan, the soft pink sakura petals
+                    represent renewal and the wondrous beauty of nature. Unlike
+                    in the wild, this charming display will remain in bloom year
+                    round accompanied with an ornate paper vase.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b5.png" alt="" />
+                  <div class="title">English Daffodils</div>
+                  <p>
+                    A pop up bouquet Daffodils is a delightful greeting card
+                    celebration of uplifting emotions and support. Daffodils are
+                    a hardy springtime flower that traditionally symbolize
+                    resilience and success.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b6.png" alt="" />
+                  <div class="title">Lilies & Lupines</div>
+                  <p>
+                    Majestic Lilies, have long been a symbol of rebirth, are
+                    combined with stately Lupines, celebrating the optimism that
+                    leads to the discovery of new opportunities, to create a
+                    stunning mixed bouquet. A thoughtful gift that bestows warm
+                    wishes and encouragement for the future - sentiments that
+                    are as enduring as the bouquet itself.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b7.png" alt="" />
+                  <div class="title">Tropical Bloom</div>
+                  <p>
+                    The Birds of Paradise in our Tropical Bloom bouquet
+                    represent flights of freedom and optimism. Mixed with
+                    vibrant blue Lotus blossoms, a symbol of rebirth, and the
+                    fragrant Plumeria, a Hawaiian symbol of hope, this whimsical
+                    and enduring bouquet evokes the promise of the future.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b8.png" alt="" />
+                  <div class="title">White Roses</div>
+                  <p>
+                    Roses are not always red. And they don't have to wither
+                    either. Give this bouquet of gorgeous white roses and your
+                    loved one can enjoy this greeting card all year long.A
+                    graceful bouquet pop up White Roses is a thoughtful gift for
+                    the most special of occasions. Roses are a flower of emotion
+                    and these rare white blossoms symbolize purity and love.
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b9.png" alt="" />
+                  <div class="title">Winter Joy</div>
+                  <p>
+                    Celebrating the season of cheer and bestowing color to the
+                    long winter nights, our Winter Joy bouquet is sure to
+                    delight. Beautifully illustrated, life-like Amaryllis are
+                    accented with joyful holly branches, all “tied up” in a
+                    festive red ribbon. A welcome splash of beauty that embodies
+                    long-lasting warm tidings that will never fade!
+                  </p>
+                </div>
+                <div class="swiper-slide">
+                  <img class="sp-img" src="./image/b1/b10.png" alt="" />
+                  <div class="title">Festive Tulips</div>
+                  <p>
+                    Festive Tulips features a dazzling collection of pastel
+                    blooms that will radiate the essence of spring in your home.
+                    Tulips, the muse of many Dutch painters, symbolize new
+                    beginnings, elegance, and unconditional love.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sp-part7">
+          <div class="sp-relative">
+            <img src="./image/img6.png" alt="" class="sp-img" />
+            <div class="title">
+              <p>Spring break Sales</p>
+              <p id="shopping">Buy <span>3</span> Get<span> 1 </span> Free</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-part">
+          <div class="p-info-wrap">
+            <div class="img-wrap">
+              <!-- <img class="p-img" src="./image/p/Dear Dahlia A.jpg" alt="" /> -->
+
+              <div class="p-img"></div>
+              <img class="large" src="./image/large.png" alt="" />
+            </div>
+            <div>
+              <div class="title">Pop Up Flower Bouquet Greeting Card</div>
+              <div class="price-group">
+                <div class="price1">
+                  £<span style="font-size: 150px">8</span
+                  ><span style="font-size: 73px">.99</span
+                  ><img src="./image/arrow-d.png" alt="" class="icon" />
+                </div>
+                <p class="price2">£17.98</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="option-title">Variants</div>
+
+          <div class="opt-group" id="color">
+            <div class="option active">Dear Dahlia A</div>
+            <div class="option">Dear Dahlia B</div>
+            <div class="option">English Daffodils</div>
+            <div class="option">Red Roses</div>
+            <div class="option">Field of Daisies</div>
+            <div class="option">Cherry Blossom</div>
+            <div class="option">Lilies & Lupines</div>
+            <div class="option">Tropical Bloom</div>
+            <div class="option">Winter Joy</div>
+            <div class="option">Festive Tulips</div>
+            <div class="option">Sunflowers</div>
+            <div class="option">Pink Tulips</div>
+          </div>
+          <div class="option-title">Quantity</div>
+          <div class="pad60">
+            <div class="flex-bet">
+              <div class="addGroup">
+                <div class="reduce">
+                  <img src="./image/reduce.png" alt="" class="sp-img" />
+                </div>
+                <input
+                  type="number"
+                  min="1"
+                  name=""
+                  value="1"
+                  max="200"
+                  id="calcNumber"
+                />
+                <div class="add">
+                  <img src="./image/add.png" alt="" class="sp-img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="sp-btn-style sp-uppercase">
+              <p>Buy Now</p>
+            </div>
+            <div class="cart-btn btn-style sp-uppercase">
+              <div class="swiper" id="swiper1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">Add to cart</div>
+                  <div class="swiper-slide">
+                    BUY <span>3</span> Get <span>1</span> Free
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tip">
+            <span>* </span>Add any 4 styles to your cart for deal.
+          </div>
+        </div>
+        <div class="sp-footer">
+          <img class="sp-img" src="./image/footer.png" alt="" />
+        </div>
+        <div class="sp-footer2">
+          <img class="sp-img" src="./image/footer2.png" alt="" />
+        </div>
+        <div class="sp-part8">
+          <div class="title">Whole Shop! Buy more, Save more!</div>
+          <div class="sub-title">98.9% of customers buy 3 or more</div>
+          <img class="sp-img" src="./image/discount.png" alt="" />
+        </div>
+        <div class="sp-part9">
+          <div class="title">Description:</div>
+          <ul>
+            <li>
+              Includes: large bouquet, matching bouquet note card, paper vase
+              and vibrant mailing envelope
+            </li>
+            <li>Measures approximately 14" high x 10.6" wide</li>
+            <li>For every bouquet sold, we will plant a tree for you</li>
+            <li>Flowers and envelopes are 100% recycled paper</li>
+            <li>
+              Pulling out the bouquet will automatically pop open into a
+              three-dimensional shape, which is unique and beautiful.
+            </li>
+            <li>Material: specialty paper</li>
+          </ul>
+          <div class="title">Tips:</div>
+          <p>
+            Our goods are authentic, with genuine patents, counterfeit must be
+            investigated!
+          </p>
+        </div>
+        <div class="mask">
+          <div class="pop">
+            <div class="sp-img"></div>
+            <!-- <img class="sp-img" src="./image/p/Dear Dahlia A.jpg" alt="" /> -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      new Swiper("#swiper2", {
+        // autoplay: true,
+        // autoplay: {
+        //   disableOnInteraction: false,
+        // },
+        spaceBetween: 30,
+        slidesPerView: "auto",
+        loop: true,
+        centeredSlidesBounds: true,
+        centeredSlides: true,
+      });
+      new Swiper("#swiper1", {
+        direction: "vertical",
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+        loop: true,
+      });
+      $(".large").click(function () {
+        $(".mask").css("display", "flex");
+        // $(".mask .sp-img")[0].src = $(".p-img").css("backgroundImage");
+        $(".mask .sp-img").css(
+          "background-image",
+          $(".p-img").css("backgroundImage")
+        );
+      });
+
+      $(".mask").click(function () {
+        $(".mask").hide();
+      });
+      $(".reduce").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) - 1;
+        if (num > 0) {
+          input.value = num;
+        }
+      });
+      $(".add").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) + 1;
+        input.value = num;
+      });
+
+      $(function () {
+        $(".option").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+        });
+
+        // style选项
+        let typeOptions = $("#color .option");
+        let img0 = $(".p-img");
+
+        // 切换选项
+        function checkType(index) {
+          img0.css("background-image", `url('./image/p/${index}.jpg')`);
+        }
+
+        typeOptions.click(function () {
+          // let index = $(this).index();
+          let _text = $(this).text();
+
+          checkType(_text);
+        });
+        let finish = $(".sp-cart");
+        let initNum = 0;
+        $(".product-part .cart-btn").click(function () {
+          initNum = initNum + 1;
+          $("#cardNum").html(initNum);
+          var img = $(".product-part  .p-img");
+          var flyer = img[0].cloneNode(true);
+          flyer.classList.add("clone");
+          $("#shopping").append(flyer);
+          $(".clone").css({
+            width: img.width(),
+            height: img.height(),
+            position: "fixed",
+            top:
+              $(".product-part  .p-info-wrap")[0].offsetTop +
+              finish.height() +
+              $(".sp-nav-top").height(),
+            left: img.offset().left,
+            backgroundImage: img.css("backgroundImage"),
+            "z-index": "99",
+          });
+
+          $(".clone").animate(
+            {
+              top: finish[0].offsetTop + $(".sp-nav-top").height(),
+              left: finish[0].offsetLeft + finish.width() / 2,
+              width: 50, // 结束时的大小，根据需要调整
+              height: 50, // 结束时的大小，根据需要调整
+              opacity: 0.4,
+            },
+            500,
+            "linear",
+            function () {
+              $(this).animate(
+                {
+                  width: 0,
+                  height: 0,
+                  opacity: 0,
+                },
+                0,
+                function () {
+                  $(".sp-header-top .sp-cart").addClass("sp-shake");
+                  setTimeout(function () {
+                    $(".sp-header-top .sp-cart").removeClass("sp-shake");
+                  }, 400);
+                  $(this).detach(); // 完成动画后移除克隆的图片
+                }
+              );
+            }
+          );
+        });
+      });
+    </script>
+    <script src="./js/flower.js"></script>
+  </body>
+</html>

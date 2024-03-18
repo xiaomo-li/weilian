@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/jquery.SuperSlide.2.1.js"></script>
+    <script src="./js/fix.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/font/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="time-part">
+        <div class="flex-bet">
+          <div class="text">Befristetes Angebot</div>
+          <div class="sp-flex-x sp_top_cut_down">
+            <div class="min-text">MIN</div>
+            <div class="clock-wrap flex-bet sp_left_view">
+              <div class="square sp_hour">00</div>
+              <div class="dot"></div>
+              <div class="square sp_minute">00</div>
+              <div class="dot"></div>
+              <div class="square sp_second">00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sp-header-top">
+        <img id="logo" class="text" src="./image/logo.png" alt="" />
+        <div class="sp-flex-x">
+          <div class="sp-cart sp-relative">
+            <img class="icon" src="./image/cart.png" alt="" />
+            <div class="num" id="cardNum">0</div>
+          </div>
+          <a href="#shopping">
+            <div class="btn sp-uppercase">JETZT KAUFEN</div></a
+          >
+        </div>
+      </div>
+
+      <section>
+        <div class="sp-part1 sp-part-top">
+          <div class="sp-relative">
+            <img src="./image/img1.png" alt="" class="sp-img" />
+            <div class="area">
+              <div class="text">2024 Italienische</div>
+              <img src="./image/img1-line.png" alt="" class="sp-line" />
+              <div class="title sp-uppercase">Handgefertigte Lederschuhe</div>
+            </div>
+            <div class="circle">
+              <span>50%</span>
+              OFF
+            </div>
+            <img class="img1-p" src="./image/img1-p.png" alt="" />
+          </div>
+        </div>
+        <a href="#shopping">
+          <div class="sp-btn-style btn-style">
+            JETZT KAUFEN <img src="./image/btn-arrow.png" alt="" class="icon" />
+          </div>
+        </a>
+
+        <div class="sp-part2">
+          <div class="sp-title">KOMFORT UND ELEGANZ</div>
+          <div class="sp-sub-title">
+            Oxford-Lederschuhe sind die ultimative Kombination aus Komfort und
+            Stil und eignen sich für jede Gelegenheit, von formellen Anlässen
+            bis hin zu Freizeitkleidung.
+          </div>
+          <img src="./image/img2.png" alt="" class="sp-img" />
+        </div>
+
+        <div class="sp-part3 sp-relative">
+          <div class="swiper" id="swiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="sp-img" src="./image/b1/b1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img class="sp-img" src="./image/b1/b2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img class="sp-img" src="./image/b1/b3.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img class="sp-img" src="./image/b1/b4.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="button button-prev"><div class="icon"></div></div>
+          <div class="button button-next"><div class="icon"></div></div>
+        </div>
+
+        <div class="sp-part4">
+          <div class="sp-title">Vier Farben</div>
+          <div class="img-group">
+            <div>
+              <img src="./image/img4-1.png" alt="" class="sp-img" />
+              <p>SCHWARZ</p>
+            </div>
+            <div>
+              <img src="./image/img4-2.png" alt="" class="sp-img" />
+              <p>BLAU</p>
+            </div>
+            <div>
+              <img src="./image/img4-3.png" alt="" class="sp-img" />
+              <p>BROWN</p>
+            </div>
+            <div>
+              <img src="./image/img4-4.png" alt="" class="sp-img" />
+              <p style="color: #232323">WEISS</p>
+            </div>
+          </div>
+        </div>
+        <a href="#shopping">
+          <div class="sp-btn-style btn-style">
+            JETZT KAUFEN <img src="./image/btn-arrow.png" alt="" class="icon" />
+          </div>
+        </a>
+        <div class="sp-part5">
+          <div class="sp-title">Handgefertigte</div>
+          <div class="sp-sub-title">
+            Wir haben hochwertige Materialien ausgewählt, um Ihnen ein
+            komfortables Erlebnis zu bieten, ohne auf Stil verzichten zu müssen.
+          </div>
+          <img src="./image/img5.png" alt="" class="sp-img" />
+          <div class="row">
+            <img src="./image/img5-1.gif" alt="" class="sp-img" />
+            <img src="./image/img5-2.gif" alt="" class="sp-img" />
+          </div>
+        </div>
+        <div class="sp-part6 sp-relative">
+          <div class="sp-title">Produktdetails</div>
+          <div class="swiper" id="swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./image/b2/b1.png" alt="" class="sp-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/b2/b2.png" alt="" class="sp-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/b2/b3.png" alt="" class="sp-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/b2/b4.png" alt="" class="sp-img" />
+              </div>
+            </div>
+          </div>
+
+          <img src="./image/img7.png" alt="" class="sp-img" />
+        </div>
+        <div class="sp-part7">
+          <div class="title">Größentabelle</div>
+          <img id="shopping" src="./image/size-bg.png" alt="" class="sp-img" />
+        </div>
+
+        <div class="sp-part8">
+          <div class="sp-relative">
+            <img src="./image/nav-bg.png" alt="" class="sp-img" />
+            <div class="title">
+              Kaufen Sie 2
+              <p></p>
+            </div>
+            <div class="title t2">Kostenloser Versand</div>
+          </div>
+        </div>
+
+        <div class="product-part" id="product-part">
+          <div class="img-wrap show">
+            <div class="imgs">
+              <img class="p-img-s active" src="./image/p/p1-1.png" alt="" />
+              <img class="p-img-s" src="./image/p/p1-2.png" alt="" />
+              <img class="p-img-s" src="./image/p/p1-3.png" alt="" />
+            </div>
+            <img class="p-img" src="./image/p/p1-1.png" alt="" />
+          </div>
+          <div class="img-wrap w2">
+            <img class="p-img" src="./image/p/p5.jpg" alt="" />
+          </div>
+
+          <div class="price-group">
+            <div class="price1">€29,90</div>
+            <span class="price2">€59,90</span>
+            <div class="off">50</div>
+          </div>
+
+          <div class="option-title">
+            <div class="brand"></div>
+            FARBE（Kaufen Sie 2, kostenloser Versand）
+          </div>
+
+          <div class="opt-group" id="color">
+            <div class="option active">SCHWARZ</div>
+            <div class="option">BROWN</div>
+            <div class="option">BLAU</div>
+            <div class="option">WEISS</div>
+            <div class="option" style="width: 100%">
+              <div class="brand">20 % Rabatt</div>
+              Alle Farben (4 Stück) – Kostenloser Versand
+            </div>
+          </div>
+          <div class="option-title" style="margin-top: 70px">GRÖSSE</div>
+
+          <div class="opt-group" id="size">
+            <div class="option active">EU 38</div>
+            <div class="option">EU 39</div>
+            <div class="option">EU 40</div>
+            <div class="option">EU 41</div>
+            <div class="option">EU 42</div>
+            <div class="option">EU 43</div>
+            <div class="option">EU 44</div>
+            <div class="option">EU 45</div>
+            <div class="option">EU 46</div>
+            <div class="option">EU 47</div>
+            <div class="option">EU 48</div>
+            <div class="option">EU 49</div>
+            <div class="option">EU 50</div>
+            <div class="option">EU 51</div>
+            <div class="option">EU 52</div>
+          </div>
+          <div class="option-title sp-uppercase" style="margin-top: 55px">
+            Anzahl
+          </div>
+          <div class="flex-bet">
+            <div class="addGroup">
+              <div class="reduce">
+                <img src="./image/reduce.png" alt="" class="sp-img" />
+              </div>
+              <input
+                type="number"
+                min="1"
+                name=""
+                value="1"
+                max="200"
+                id="calcNumber"
+              />
+              <div class="add">
+                <img src="./image/add.png" alt="" class="sp-img" />
+              </div>
+            </div>
+            <div class="cart-btn btn-style">In den Einkaufswagen</div>
+          </div>
+
+          <div class="sp-btn-style">JETZT KAUFEN</div>
+        </div>
+        <div class="sp-footer">
+          <img class="sp-img" src="./image/footer.png" alt="" />
+        </div>
+        <div class="sp-footer2">
+          <div class="title">Mehr kaufen, mehr sparen!</div>
+          <p>Kaufen Sie 2, kostenloser Versand</p>
+          <img class="sp-img" src="./image/discount-bg.png" alt="" />
+        </div>
+        <div class="sp-footer3">
+          Sehr geehrter Kunde, vielen Dank für Ihre Aufmerksamkeit.Unser heepqy
+          Store verkauft seit 3 ​​Jahren in Deutschland.
+          <br />
+          <br />
+          Versand sofort nach dem Kauf, Alle Adressen in
+          Germen、Austria、Luxembourg、Belgium erhalten es innerhalb von 7-15
+          Tagen. Bei Fragen wenden Sie sich bitte an die Facebook-Seite von
+
+          <p>Heepqy oder <span>service@Heepqy.com. </span></p>
+
+          <p>Wir beantworten alle Ihre Fragen innerhalb von 24 Stunden.</p>
+        </div>
+
+        <div class="remark">
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Weltweiter Versand</div>
+          </div>
+          <div class="sp-flex-x">
+            <div
+              class="icon"
+              style="width: 46px; height: 35px; margin-left: -5px"
+            ></div>
+            <div class="icon-text">Sichere Zahlung</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">24/7 Service</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon" style="width: 39px"></div>
+            <div class="icon-text">Geld-Zurück-Garantie</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      new Swiper("#swiper1", {
+        // autoplay: true,
+        // autoplay: {
+        //   disableOnInteraction: false,
+        // },
+        loop: true,
+        slidesPerView: "auto",
+        spaceBetween: 10,
+        centeredSlidesBounds: true,
+        centeredSlides: true,
+        navigation: {
+          prevEl: ".button-prev",
+          nextEl: ".button-next",
+        },
+      });
+      new Swiper("#swiper2", {
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+        loop: true,
+      });
+
+      $(".reduce").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) - 1;
+        if (num > 0) {
+          input.value = num;
+        }
+      });
+      $(".add").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) + 1;
+        input.value = num;
+      });
+
+      $(function () {
+        $(".option").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+        });
+
+        // style选项
+        let typeOptions = $("#color .option");
+        let img0 = $(".product-part .p-img");
+        let sp_imgs = $(".product-part .p-img-s");
+
+        // 切换选项
+        function checkType(index) {
+          if (index == 4) {
+            $(".product-part .img-wrap").eq(0).removeClass("show");
+            $(".product-part .img-wrap").eq(1).addClass("show");
+          } else {
+            $(".product-part .img-wrap").eq(0).addClass("show");
+            $(".product-part .img-wrap").eq(1).removeClass("show");
+            img0[0].src = `./image/p/p${index + 1}-1.png`;
+            sp_imgs[0].src = `./image/p/p${index + 1}-1.png`;
+            sp_imgs[1].src = `./image/p/p${index + 1}-2.png`;
+            sp_imgs[2].src = `./image/p/p${index + 1}-3.png`;
+          }
+        }
+        sp_imgs.click(function () {
+          $(this).addClass("active").siblings().removeClass("active");
+          let index = $(this).index() + 1;
+          img0[0].src = img0[0].src.slice(0, -5) + index + ".png";
+        });
+
+        typeOptions.click(function () {
+          let index = $(this).index();
+          checkType(index);
+        });
+
+        let initNum = 0;
+        $(".product-part .cart-btn").click(function () {
+          initNum = initNum + 1;
+          $("#cardNum").html(initNum);
+          var img = $(".product-part .show  .p-img");
+          var flyer = img[0].cloneNode(true);
+          flyer.classList.add("clone");
+          $("#product-part").append(flyer);
+          $(".clone").css({
+            width: img[0].width,
+            height: img[0].height,
+            position: "fixed",
+            top: img[0].offsetTop,
+            left: img.offset().left,
+            "z-index": "99",
+          });
+
+          let finish = $(".sp-cart");
+          $(".clone").animate(
+            {
+              top: finish[0].offsetTop / 2 + $(".time-part").height(),
+              left: finish[0].offsetLeft + finish.width() / 2,
+              width: 50, // 结束时的大小，根据需要调整
+              height: 50, // 结束时的大小，根据需要调整
+              opacity: 0.4,
+            },
+            500,
+            "linear",
+            function () {
+              $(this).animate(
+                {
+                  width: 0,
+                  height: 0,
+                  opacity: 0,
+                },
+                0,
+                function () {
+                  $(".sp-header-top .sp-cart").addClass("sp-shake");
+                  setTimeout(function () {
+                    $(".sp-header-top .sp-cart").removeClass("sp-shake");
+                  }, 400);
+                  $(this).detach(); // 完成动画后移除克隆的图片
+                }
+              );
+            }
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
