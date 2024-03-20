@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/jquery.SuperSlide.2.1.js"></script>
+    <script src="./js/fix.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/font/font.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="sp-nav-top">
+        <img src="./image/arrow-r.png" alt="" class="icon" />
+        <p>FREE SHIPPING FOR ORDERS OVER $40</p>
+        <img src="./image/arrow-l.png" alt="" class="icon" />
+      </div>
+      <div class="sp-header-top">
+        <img id="logo" class="text" src="./image/logo.png" alt="" />
+        <div class="sp-flex-x">
+          <a href="#shopping">
+            <div class="btn sp-uppercase"><p>BUY NOW</p></div></a
+          >
+          <div class="sp-cart sp-relative">
+            <img class="icon" src="./image/cart.png" alt="" />
+            <div class="num" id="cardNum">0</div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="sp-part1 sp-part-top">
+          <div class="sp-relative">
+            <img src="./image/img1.png" alt="" class="sp-img" />
+            <div class="word sp-uppercase">
+              Looks
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;thinner</p>
+            </div>
+          </div>
+          <div class="title">
+            <p class="sp-stroke" data-title="COTTON">COTTON</p>
+            <p class="sp-stroke" data-title="TROUSERS">TROUSERS</p>
+          </div>
+          <div class="price-group">
+            <div class="price2">€53,98</div>
+            <div class="price1">€21,90</div>
+          </div>
+          <div class="circle">
+            <p>59<span>%</span></p>
+            OFF
+          </div>
+          <a href="#shopping">
+            <div class="btn-style"><p>BUY NOW</p></div>
+          </a>
+        </div>
+
+        <div class="sp-part2">
+          <div class="sp-title">Casual Fashion Slimming</div>
+
+          <img src="./image/img2.gif" alt="" class="sp-img" />
+        </div>
+
+        <div class="sp-part3">
+          <div class="sp-title">
+            The fitting is absolutely perfect! Longer look legs
+          </div>
+          <div class="row">
+            <img class="img1" src="./image/img3-1.png" alt="" />
+            <img class="img2" src="./image/img3-2.png" alt="" />
+          </div>
+          <div class="sp-title sp-title2">Suitable for all body types</div>
+          <img class="sp-img" src="./image/img3-3.jpg" alt="" />
+          <a href="#shopping">
+            <div class="sp-btn-style btn-style"><p>BUY NOW</p></div>
+          </a>
+        </div>
+
+        <div class="sp-part4">
+          <div class="sp-title">MODEL SHOWCASE</div>
+          <img src="./image/img4.gif" alt="" class="sp-img" />
+          <img src="./image/img4-2.gif" alt="" class="sp-img img2" />
+          <a href="#shopping">
+            <div class="sp-btn-style btn-style"><p>BUY NOW</p></div>
+          </a>
+        </div>
+
+        <div class="sp-part5">
+          <div class="sp-title">
+            Soft and delicate <br />
+            Draped and sinewy
+          </div>
+          <div class="sp-sub-title">
+            Selected air cotton. Cool and breathable
+          </div>
+          <div class="sp-relative box1">
+            <img src="./image/b1/b1.jpg" alt="" class="sp-img" />
+            <div class="swiper" id="swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="text">
+                    Fabric with cooling factor No stuffiness in summer
+                  </div>
+                </div>
+                <div class="swiper-slide s2">
+                  <div class="text">
+                    Thinner and longer fiber Skin-friendly and breathable
+                  </div>
+                  <img src="./image/b1/b2.jpg" alt="" class="sp-img" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="text">
+                    Better fiber strength Draped and wrinkle-free
+                  </div>
+                  <img src="./image/b1/b3.jpg" alt="" class="sp-img" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination pagination1"></div>
+          </div>
+          <div class="sp-title sp-title2">Soft and breathable</div>
+          <img src="./image/img5.jpg" alt="" class="sp-img" />
+        </div>
+        <div class="sp-part6">
+          <div class="sp-relative">
+            <div class="swiper" id="swiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide s1">
+                  <div class="sp-title">
+                    Skin-friendly and <br />
+                    comfortable fabrics
+                  </div>
+                  <img class="sp-img" src="./image/b2/b1.jpg" alt="" />
+                  <div class="text">fine feeling in the hand</div>
+                  <img class="sp-img img2" src="./image/b2/icons.png" alt="" />
+                </div>
+                <div class="swiper-slide s2">
+                  <div class="sp-title">
+                    Wrinkle-resistant <br />
+                    and not easily deformed
+                  </div>
+                  <img class="sp-img" src="./image/b2/b2.jpg" alt="" />
+                  <div class="text">
+                    No deformation to be stylish -wrinkle-free and crisp
+                  </div>
+                  <img class="sp-img img2" src="./image/b2/icons.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="sp-title">Resistant to pilling and snagging</div>
+                  <img class="sp-img" src="./image/b2/b3.jpg" alt="" />
+                  <img class="sp-img img2" src="./image/b2/icons.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="button button-prev"><div class="icon"></div></div>
+            <div class="button button-next"><div class="icon"></div></div>
+            <div class="swiper-pagination pagination2"></div>
+          </div>
+        </div>
+        <div class="sp-part7">
+          <div class="sp-title">We have more color options here</div>
+          <div class="swiper" id="swiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./image/b3/b1.jpg" alt="" class="sp-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/b3/b2.jpg" alt="" class="sp-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/b3/b3.jpg" alt="" class="sp-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/b3/b4.jpg" alt="" class="sp-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/b3/b5.jpg" alt="" class="sp-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/b3/b6.jpg" alt="" class="sp-img" />
+              </div>
+            </div>
+          </div>
+
+          <a href="#shopping">
+            <div class="sp-btn-style btn-style"><p>BUY NOW</p></div>
+          </a>
+        </div>
+
+        <div class="sp-part8">
+          <div class="size-btns">
+            <div class="size-btn active btn-style">Size Chart (cm)</div>
+            <div class="size-btn btn-style">Size Chart (inch)</div>
+          </div>
+          <div>
+            <div class="sp-size-table">
+              <div class="size-title">
+                Size Chart (cm)
+                <div class="red">1inch=2.54cm</div>
+              </div>
+              <ul class="table-header">
+                <li>Size</li>
+                <li>F R</li>
+                <li>UK/AU</li>
+                <li>Waist</li>
+                <li>Hip</li>
+                <li>Leg</li>
+                <li>Length</li>
+              </ul>
+              <div class="table-body">
+                <ul class="row">
+                  <li>M</li>
+                  <li>30-60</li>
+                  <li>10-12</li>
+                  <li>100</li>
+                  <li>112</li>
+                  <li>60</li>
+                  <li>89</li>
+                </ul>
+                <ul class="row">
+                  <li>L</li>
+                  <li>40-42</li>
+                  <li>14</li>
+                  <li>104</li>
+                  <li>116</li>
+                  <li>61</li>
+                  <li>90</li>
+                </ul>
+                <ul class="row">
+                  <li>XL</li>
+                  <li>42-44</li>
+                  <li>16</li>
+                  <li>108</li>
+                  <li>120</li>
+                  <li>62</li>
+                  <li>91</li>
+                </ul>
+                <ul class="row">
+                  <li>2XL</li>
+                  <li>44-46</li>
+                  <li>18</li>
+                  <li>112</li>
+                  <li>124</li>
+                  <li>63</li>
+                  <li>92</li>
+                </ul>
+                <ul class="row">
+                  <li>3XL</li>
+                  <li>46-48</li>
+                  <li>20</li>
+                  <li>116</li>
+                  <li>128</li>
+                  <li>64</li>
+                  <li>93</li>
+                </ul>
+                <ul class="row">
+                  <li>4XL</li>
+                  <li>48-50</li>
+                  <li>22</li>
+                  <li>120</li>
+                  <li>132</li>
+                  <li>65</li>
+                  <li>94</li>
+                </ul>
+              </div>
+            </div>
+            <div class="sp-size-table hide">
+              <div class="size-title">
+                Size Chart (inch)
+                <div class="red">1inch=2.54cm</div>
+              </div>
+              <ul class="table-header">
+                <li>Size</li>
+                <li>F R</li>
+                <li>UK/AU</li>
+                <li>Waist</li>
+                <li>Hip</li>
+                <li>Leg</li>
+                <li>Length</li>
+              </ul>
+              <div class="table-body">
+                <ul class="row">
+                  <li>M</li>
+                  <li>30-60</li>
+                  <li>10-12</li>
+                  <li>39.37</li>
+                  <li>44.09</li>
+                  <li>23.62</li>
+                  <li>35.04</li>
+                </ul>
+                <ul class="row">
+                  <li>L</li>
+                  <li>40-42</li>
+                  <li>14</li>
+                  <li>40.94</li>
+                  <li>45.67</li>
+                  <li>24.02</li>
+                  <li>35.43</li>
+                </ul>
+                <ul class="row">
+                  <li>XL</li>
+                  <li>42-44</li>
+                  <li>16</li>
+                  <li>42.54</li>
+                  <li>47.24</li>
+                  <li>24.41</li>
+                  <li>35.83</li>
+                </ul>
+                <ul class="row">
+                  <li>2XL</li>
+                  <li>44-46</li>
+                  <li>18</li>
+                  <li>44.09</li>
+                  <li>48.82</li>
+                  <li>24.08</li>
+                  <li>36.22</li>
+                </ul>
+                <ul class="row">
+                  <li>3XL</li>
+                  <li>46-48</li>
+                  <li>20</li>
+                  <li>45.67</li>
+                  <li>50.39</li>
+                  <li>25.20</li>
+                  <li>36.61</li>
+                </ul>
+                <ul class="row">
+                  <li>4XL</li>
+                  <li>48-50</li>
+                  <li>22</li>
+                  <li>47.24</li>
+                  <li>51.97</li>
+                  <li>25.59</li>
+                  <li>37.01</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="shopping"></div>
+        </div>
+        <div id="nav0">
+          <div class="nav-imgs">
+            <div>
+              <img src="./image/arrow-y.png" alt="" class="img" />
+              <p>BUY 2, GET 8% OFF!</p>
+            </div>
+            <div>
+              <img src="./image/arrow-y.png" alt="" class="img" />
+              <p>BUY 3, GET 10% OFF!</p>
+            </div>
+            <div>
+              <img src="./image/arrow-y.png" alt="" class="img" />
+              <p>BUY 4, GET 15% OFF!</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-part" id="product-part">
+          <div class="img-wrap">
+            <img class="p-img" src="./image/p/Black.png" alt="" />
+          </div>
+          <div class="padding">
+            <div class="price-group">
+              <div class="price1">€21.90</div>
+              <span class="price2">€53.98</span>
+              <div class="brand">-59%</div>
+            </div>
+
+            <div class="option-title">Color</div>
+
+            <div class="opt-group" id="color">
+              <div class="option active">
+                <img class="hot" src="./image/hot.png" alt="" /><span
+                  >Black</span
+                >
+              </div>
+              <div class="option">
+                <img class="hot" src="./image/hot.png" alt="" /><span
+                  >White</span
+                >
+              </div>
+              <div class="option">
+                <img class="hot" src="./image/hot.png" alt="" /><span
+                  >Coffee</span
+                >
+              </div>
+              <div class="option"><span>Khaki</span></div>
+              <div class="option"><span>Brick red</span></div>
+              <div class="option"><span>Green</span></div>
+            </div>
+            <div class="flex-bet">
+              <div class="option-title">Size</div>
+              <div class="size-wrap">
+                <p>Size Table</p>
+                <img src="./image/size-btn.png" alt="" />
+              </div>
+            </div>
+
+            <div class="opt-group" id="size">
+              <div class="option active">M</div>
+              <div class="option">L</div>
+              <div class="option">XL</div>
+              <div class="option">2XL</div>
+              <div class="option">2XL</div>
+              <div class="option">2XL</div>
+            </div>
+            <div class="option-title">Quantity</div>
+            <div class="flex-bet">
+              <div class="addGroup">
+                <div class="reduce">
+                  <img src="./image/reduce.png" alt="" class="sp-img" />
+                </div>
+                <input
+                  type="number"
+                  min="1"
+                  name=""
+                  value="1"
+                  max="200"
+                  id="calcNumber"
+                />
+                <div class="add">
+                  <img src="./image/add.png" alt="" class="sp-img" />
+                </div>
+              </div>
+              <div class="cart-btn btn-style">ADD TO CART</div>
+            </div>
+
+            <div class="sp-btn-style"><p>BUY NOW</p></div>
+          </div>
+        </div>
+        <div class="sp-nav5">FREE SHIPPING FOR ORDERS OVER $40</div>
+        <img class="sp-img" src="./image/footer-img.jpg" alt="" />
+
+        <div class="remark">
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">Worldwide shipping</div>
+          </div>
+          <div class="sp-flex-x">
+            <div
+              class="icon"
+              style="width: 48px; height: 40px; margin-left: -5px"
+            ></div>
+            <div class="icon-text">Free returns</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon"></div>
+            <div class="icon-text">24/7 customer support</div>
+          </div>
+          <div class="sp-flex-x">
+            <div class="icon" style="width: 39px"></div>
+            <div class="icon-text">Secure payments</div>
+          </div>
+        </div>
+        <div class="mask">
+          <div class="pop">
+            <div class="pop-title">Size Chart (cm/inch)</div>
+
+            <div class="sp-size-table" style="margin-bottom: 80px">
+              <div class="size-title">
+                Size Chart (cm)
+                <div class="red">1inch=2.54cm</div>
+              </div>
+              <ul class="table-header">
+                <li>Size</li>
+                <li>F R</li>
+                <li>UK/AU</li>
+                <li>Waist</li>
+                <li>Hip</li>
+                <li>Leg</li>
+                <li>Length</li>
+              </ul>
+              <div class="table-body">
+                <ul class="row">
+                  <li>M</li>
+                  <li>30-60</li>
+                  <li>10-12</li>
+                  <li>100</li>
+                  <li>112</li>
+                  <li>60</li>
+                  <li>89</li>
+                </ul>
+                <ul class="row">
+                  <li>L</li>
+                  <li>40-42</li>
+                  <li>14</li>
+                  <li>104</li>
+                  <li>116</li>
+                  <li>61</li>
+                  <li>90</li>
+                </ul>
+                <ul class="row">
+                  <li>XL</li>
+                  <li>42-44</li>
+                  <li>16</li>
+                  <li>108</li>
+                  <li>120</li>
+                  <li>62</li>
+                  <li>91</li>
+                </ul>
+                <ul class="row">
+                  <li>2XL</li>
+                  <li>44-46</li>
+                  <li>18</li>
+                  <li>112</li>
+                  <li>124</li>
+                  <li>63</li>
+                  <li>92</li>
+                </ul>
+                <ul class="row">
+                  <li>3XL</li>
+                  <li>46-48</li>
+                  <li>20</li>
+                  <li>116</li>
+                  <li>128</li>
+                  <li>64</li>
+                  <li>93</li>
+                </ul>
+                <ul class="row">
+                  <li>4XL</li>
+                  <li>48-50</li>
+                  <li>22</li>
+                  <li>120</li>
+                  <li>132</li>
+                  <li>65</li>
+                  <li>94</li>
+                </ul>
+              </div>
+            </div>
+            <div class="sp-size-table">
+              <div class="size-title">
+                Size Chart (inch)
+                <div class="red">1inch=2.54cm</div>
+              </div>
+              <ul class="table-header">
+                <li>Size</li>
+                <li>F R</li>
+                <li>UK/AU</li>
+                <li>Waist</li>
+                <li>Hip</li>
+                <li>Leg</li>
+                <li>Length</li>
+              </ul>
+              <div class="table-body">
+                <ul class="row">
+                  <li>M</li>
+                  <li>30-60</li>
+                  <li>10-12</li>
+                  <li>39.37</li>
+                  <li>44.09</li>
+                  <li>23.62</li>
+                  <li>35.04</li>
+                </ul>
+                <ul class="row">
+                  <li>L</li>
+                  <li>40-42</li>
+                  <li>14</li>
+                  <li>40.94</li>
+                  <li>45.67</li>
+                  <li>24.02</li>
+                  <li>35.43</li>
+                </ul>
+                <ul class="row">
+                  <li>XL</li>
+                  <li>42-44</li>
+                  <li>16</li>
+                  <li>42.54</li>
+                  <li>47.24</li>
+                  <li>24.41</li>
+                  <li>35.83</li>
+                </ul>
+                <ul class="row">
+                  <li>2XL</li>
+                  <li>44-46</li>
+                  <li>18</li>
+                  <li>44.09</li>
+                  <li>48.82</li>
+                  <li>24.08</li>
+                  <li>36.22</li>
+                </ul>
+                <ul class="row">
+                  <li>3XL</li>
+                  <li>46-48</li>
+                  <li>20</li>
+                  <li>45.67</li>
+                  <li>50.39</li>
+                  <li>25.20</li>
+                  <li>36.61</li>
+                </ul>
+                <ul class="row">
+                  <li>4XL</li>
+                  <li>48-50</li>
+                  <li>22</li>
+                  <li>47.24</li>
+                  <li>51.97</li>
+                  <li>25.59</li>
+                  <li>37.01</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript">
+      jQuery("#nav0").slide({
+        mainCell: ".nav-imgs",
+        autoPlay: true,
+        effect: "leftMarquee",
+        interTime: 8,
+        vis: 2,
+        scroll: 2,
+      });
+    </script>
+    <script>
+      new Swiper("#swiper1", {
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+        loop: true,
+        spaceBetween: 30,
+        navigation: {
+          prevEl: ".button-prev",
+          nextEl: ".button-next",
+        },
+        pagination: {
+          el: ".pagination2",
+          clickable: true,
+        },
+      });
+      new Swiper("#swiper2", {
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+        loop: true,
+        spaceBetween: 30,
+
+        pagination: {
+          el: ".pagination1",
+          type: "bullets",
+          clickable: true,
+        },
+      });
+      new Swiper("#swiper3", {
+        autoplay: true,
+        autoplay: {
+          disableOnInteraction: false,
+        },
+        loop: true,
+        spaceBetween: 58,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      });
+
+      $(".reduce").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) - 1;
+        if (num > 0) {
+          input.value = num;
+        }
+      });
+      $(".add").click(function () {
+        let input = $(this).siblings("input")[0];
+        let num = Number(input.value) + 1;
+        input.value = num;
+      });
+
+      $(function () {
+        $(".sp-part8 .size-btn").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+          let index = $(this).index();
+          $(".sp-part8 .sp-size-table").eq(index).removeClass("hide");
+          $(".sp-part8 .sp-size-table").eq(index).siblings().addClass("hide");
+        });
+        $(".mask").click(function (e) {
+          if ($(e.target).closest(".mask .btn").length > 0) {
+          } else {
+            $(".mask").hide();
+          }
+        });
+        $(".size-wrap").click(function () {
+          $(".mask").css("display", "flex");
+        });
+        $(".option").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+        });
+
+        // style选项
+        let typeOptions = $("#color .option");
+        let img0 = $(".product-part .p-img");
+
+        // 切换选项
+        function checkType(index, text) {
+          img0[0].src = `./image/p/${text}.png`;
+        }
+
+        typeOptions.click(function () {
+          let index = $(this).index();
+          let text = $(this).find("span").text().trim().replace(/\s/g, "");
+
+          checkType(index, text);
+        });
+
+        let initNum = 0;
+        $(".product-part .cart-btn").click(function () {
+          initNum = initNum + 1;
+          $("#cardNum").html(initNum);
+          var img = $(".product-part   .p-img");
+          var flyer = img[0].cloneNode(true);
+          flyer.classList.add("clone");
+          $("#product-part").append(flyer);
+          $(".clone").css({
+            width: img[0].width,
+            height: img[0].height,
+            position: "fixed",
+            top: img[0].offsetTop,
+            left: img.offset().left,
+            "z-index": "99",
+          });
+
+          let finish = $(".sp-cart");
+          $(".clone").animate(
+            {
+              top: finish[0].offsetTop / 2 + $(".sp-nav-top").height(),
+              left: finish[0].offsetLeft + finish.width() / 2,
+              width: 50, // 结束时的大小，根据需要调整
+              height: 50, // 结束时的大小，根据需要调整
+              opacity: 0.4,
+            },
+            500,
+            "linear",
+            function () {
+              $(this).animate(
+                {
+                  width: 0,
+                  height: 0,
+                  opacity: 0,
+                },
+                0,
+                function () {
+                  $(".sp-header-top .sp-cart").addClass("sp-shake");
+                  setTimeout(function () {
+                    $(".sp-header-top .sp-cart").removeClass("sp-shake");
+                  }, 400);
+                  $(this).detach(); // 完成动画后移除克隆的图片
+                }
+              );
+            }
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
